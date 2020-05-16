@@ -1,5 +1,9 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <div>
+        <img alt="small R logo" src="@/assets/r.png" />
+        <h1>Links</h1>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
 </template>
