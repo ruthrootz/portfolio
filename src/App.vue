@@ -9,6 +9,12 @@
 </template>
 
 <style>
+html {
+    background: #909fad;
+}
+section {
+    height: 100vh;
+}
 ul {
     list-style-type: none;
     padding: 0;
@@ -18,7 +24,9 @@ li {
     margin: 0 10px;
 }
 a {
-    color: #42b983;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -38,6 +46,6 @@ a {
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: rgb(19, 19, 133);
 }
 </style>
