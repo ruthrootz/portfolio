@@ -1,11 +1,12 @@
 <template>
     <div>
         <h1>projects</h1>
-        <ul>
-            <li><a href="https://boringweather.netlify.app/">boring weather</a></li>
-            <li><a href="https://cubingtrainer.netlify.app/#/">cubing trainer</a></li>
-            <li><a href="https://quantumcomputingfortheundetermined.netlify.app/">Quantum Computing For The Undetermined (WIP)</a></li>
-        </ul>
+        <section>
+            <a href="https://boringweather.netlify.app/">boring weather</a>
+        </section>
+        <section>
+            <a href="https://cubingtrainer.netlify.app/#/">cubing trainer</a>
+        </section>
     </div>
 </template>
 
