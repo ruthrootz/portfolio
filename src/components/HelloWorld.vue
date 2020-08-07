@@ -5,7 +5,7 @@
             <a href="https://boringweather.netlify.app/">boring weather</a>
         </section>
         <section>
-            <a href="https://cubingtrainer.netlify.app/#/">cubing trainer</a>
+            <a href="https://cubingtrainer.netlify.app/">cubing trainer</a>
         </section>
     </div>
 </template>
