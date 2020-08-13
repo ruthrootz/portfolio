@@ -1,12 +1,12 @@
 <template>
     <div>
         <h1>projects</h1>
-        <section>
+        <p>
             <a href="https://boringweather.netlify.app/">boring weather</a>
-        </section>
-        <section>
+        </p>
+        <p>
             <a href="https://cubingtrainer.netlify.app/">cubing trainer</a>
-        </section>
+        </p>
     </div>
 </template>
 

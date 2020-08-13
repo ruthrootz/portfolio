@@ -12,9 +12,6 @@
 html {
     background: #909fad;
 }
-section {
-    height: 100vh;
-}
 ul {
     list-style-type: none;
     padding: 0;
