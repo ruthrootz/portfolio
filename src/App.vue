@@ -10,25 +10,24 @@
 </template>
 
 <style>
-
 html {
-    background: #909fad;
+  background: #909fad;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
-    display: inline-block;
-    margin: 0 10px;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 a {
-    color: #2c3e50;
-    font-weight: bold;
-    font-size: 1.25em;
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 1.25em;
 }
 
 #app {
@@ -52,4 +51,12 @@ a {
   color: rgb(19, 19, 133);
 }
 
+.blog {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.article {
+  text-align: left;
+}
 </style>

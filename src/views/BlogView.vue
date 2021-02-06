@@ -1,17 +1,17 @@
 <template>
   <div>
     <img alt="small R logo" src="@/assets/r.png" />
-    <HelloWorld />
+    <Blog />
   </div>
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
+import Blog from "@/components/Blog.vue";
 
 export default {
-  name: "Home",
+  name: "BlogView",
   components: {
-    HelloWorld
+    Blog
   }
 };
 </script>

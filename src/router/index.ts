@@ -2,7 +2,7 @@ import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
-import Blog from "../views/Blog.vue";
+import BlogView from "../views/BlogView.vue";
 
 Vue.use(VueRouter);
 
@@ -10,17 +10,17 @@ const routes: Array<RouteConfig> = [
   {
     path: "/",
     name: "HOME",
-    component: Home,
+    component: Home
   },
   {
     path: "/about",
     name: "ABOUT",
-    component: About,
+    component: About
   },
   {
     path: "/blog",
     name: "BLOG",
-    component: Blog,
+    component: BlogView
   }
 ];
 
