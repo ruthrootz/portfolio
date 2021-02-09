@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>blog</h1>
-        <div class="blog">
+        <div class="center">
             <article class="article">
                 <h3>
                     All Systems Red (Murderbot Diaries #1) - spoiler-free review

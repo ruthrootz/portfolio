@@ -1,10 +1,13 @@
 <template>
-    <div>
+    <div class="center">
         <img alt="small R logo" src="@/assets/r.png" />
         <h1>links</h1>
         <p>
             podcast person. book person. coder person. always learning person.
-            too many interests person. [podcasts:
+            too many interests person.
+        </p>
+        <p>
+            [podcasts:
             <a href="https://betterwithbooks.transistor.fm/"
                 >Better With Books</a
             >
