@@ -1,8 +1,8 @@
 import { Component, Vue } from "vue-property-decorator";
+import store from "@/store";
 
 @Component
 export default class Blog extends Vue {
-  private test = 12345;
 
   private mounted(): void {
       // import articles
