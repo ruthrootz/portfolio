@@ -1,9 +1,9 @@
 <template>
     <div class="center">
         <img alt="small R logo" src="@/assets/r.png" />
-        <h1>links</h1>
+        <h1>about</h1>
         <p>
-            podcast person. book person. coder person. always learning person.
+            book person. coder person. podcast person. always learning person.
             too many interests person.
         </p>
         <p>
