@@ -1,6 +1,5 @@
 <template>
     <div>
-        <img alt="small R logo" src="@/assets/r.png" />
         <HelloWorld />
     </div>
 </template>

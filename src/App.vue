@@ -5,6 +5,7 @@
             <router-link to="/about">about</router-link> |
             <router-link to="/blog">blog</router-link>
         </div>
+        <router-link to="/"><img alt="small R logo" src="@/assets/r.png" /></router-link>
         <router-view />
     </div>
 </template>

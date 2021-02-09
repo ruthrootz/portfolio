@@ -1,6 +1,5 @@
 <template>
     <div class="center">
-        <img alt="small R logo" src="@/assets/r.png" />
         <h1>about</h1>
         <p>
             book person. coder person. podcast person. always learning person.
