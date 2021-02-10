@@ -6,7 +6,7 @@
                 <div class="article">
                     <h3><router-link :to="{ name: 'article', params: { id: article.id } }">{{ article.title }}</router-link></h3>
                     <h5>{{ article.publishDate }}</h5>
-                    <div v-html="article.text"></div>
+                    <div v-html="article.previewText"></div>
                 </div>
             </div>
         </div>
