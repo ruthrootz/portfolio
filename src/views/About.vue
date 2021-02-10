@@ -14,7 +14,6 @@
             <a href="https://wasawkwardpod.transistor.fm/">That Was Awkward</a>]
         </p>
         <ul>
-            <li><a href="https://blogbyrootz.blogspot.com/">blog</a></li>
             <li>
                 <a href="https://www.linkedin.com/in/ruth-oldja-3b1305141/"
                     >LinkedIn</a
