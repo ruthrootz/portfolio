@@ -6,4 +6,5 @@ enum Tag {
     Productivity,
     Running,
     WebDevelopment,
+    Review,
 }
