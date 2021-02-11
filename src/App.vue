@@ -12,7 +12,7 @@
 
 <style>
 html {
-    background: #909fad;
+    background: #a4b8ca;
 }
 
 ul {
@@ -67,5 +67,10 @@ p {
 
 .article {
     text-align: left;
+}
+
+.demo-image {
+    width: 350px;
+    border-radius: 3%;
 }
 </style>
