@@ -65,10 +65,12 @@
             <li class="demo">
                 <a href="https://betterwithbooks.transistor.fm/" target="_blank">Better With Books
                 <div><img class="demo-image" src="@/assets/books.jpg" alt="better with books podcast cover art" /></div></a>
+                <div>books + good ideas = Better With Books</div>
             </li>
             <li class="demo">
                 <a href="https://wasawkwardpod.transistor.fm/" target="_blank">That Was Awkward
                 <div><img class="demo-image" src="@/assets/awkward.jpg" alt="that was awkward podcast cover art" /></div></a>
+                <div>two girls talking about psychology and solcilizing</div>
             </li>
         </ul>
     </div>

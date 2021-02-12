@@ -7,12 +7,17 @@
         </div>
         <router-link to="/"><img alt="small R logo" src="@/assets/r.png" /></router-link>
         <router-view />
+        <footer>&copy; copyright 2021 Ruth R. Oldja</footer>
     </div>
 </template>
 
 <style>
 html {
     background: #a4b8ca;
+}
+
+footer {
+    margin-top: 5%;
 }
 
 ul {
