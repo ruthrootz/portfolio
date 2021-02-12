@@ -74,6 +74,10 @@ p {
     text-align: left;
 }
 
+.demo {
+    width: 40%;
+}
+
 .demo-image {
     width: 350px;
     border-radius: 3%;
@@ -87,6 +91,6 @@ p {
 }
 
 .li-icon {
-    width: 5%;
+    width: 6%;
 }
 </style>
