@@ -79,8 +79,13 @@ p {
     text-align: left;
 }
 
+.section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .demo {
-    width: 40%;
+    width: 35%;
 }
 
 .demo-image {
