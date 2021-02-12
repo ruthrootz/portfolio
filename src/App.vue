@@ -73,4 +73,10 @@ p {
     width: 350px;
     border-radius: 3%;
 }
+
+.icon {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
 </style>
