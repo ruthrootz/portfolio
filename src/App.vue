@@ -65,6 +65,11 @@ p {
     margin: 0 auto;
 }
 
+.blog {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .article {
     text-align: left;
 }
@@ -75,8 +80,13 @@ p {
 }
 
 .icon {
-    width: 100px;
+    width: 97px;
     display: block;
     margin: 0 auto;
+    padding: 13px;
+}
+
+.li-icon {
+    width: 5%;
 }
 </style>
