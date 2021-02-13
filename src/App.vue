@@ -13,7 +13,8 @@
 
 <style>
 html {
-    background: #a4b8ca;
+    background-image: linear-gradient(rgb(15, 129, 173), rgb(255, 208, 0));
+    background-attachment: fixed;
 }
 
 footer {
