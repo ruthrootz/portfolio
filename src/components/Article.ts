@@ -8,13 +8,13 @@ export default class Article extends Vue {
     private article = null;
 
     private mounted(): void {
-      this.id = this.$route.params.id;
-      this.article = this.$store.state.articles.find(
-        (a: Article) => a.id === this.id
-      );
+        this.id = this.$route.params.id;
+        this.article = this.$store.state.articles.find(
+            (a: Article) => a.id === this.id
+        );
     }
 
     private test(): void {
-      console.log('I got Vim working swimmingly!');
+        console.log('I got Vim working swimmingly!');
     }
 }
