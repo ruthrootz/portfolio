@@ -53,13 +53,13 @@
                 <li class="demo">
                     <a href="https://boringweather.netlify.app/" target="_blank">boring weather
                     <div><img class="demo-image" src="@/assets/boringweather.png" alt="screenshot of weather web app" /></div></a>
-                    <div>Enter zip codes and get the weather.</div>
+                    <div>enter zip codes and get the weather</div>
                     <div>[HTML, CSS, jQuery, Bootstrap]</div>
                 </li>
                 <li class="demo">
                     <a href="https://cubingtrainer.netlify.app/" target="_blank">cubing trainer
                     <div><img class="demo-image" src="@/assets/cubingtrainer.png" alt="screenshot of cubing timer web app" /></div></a>
-                    <div>A speedcubing timer with chart and import/export option.</div>
+                    <div>a speedcubing timer with chart and import/export</div>
                     <div>[Vue, TypeScript, Bootstrap]</div>
                 </li>
             </ul>
