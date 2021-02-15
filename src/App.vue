@@ -13,7 +13,11 @@
 
 <style>
 html {
-    background-image: linear-gradient(rgb(15, 129, 173), rgb(255, 208, 0));
+    background-color:#23bbf7;
+    background-image: linear-gradient(#23bbf7, #ff6f00);
+    background:-webkit-linear-gradient(top, #23bbf7, #ff6f00);
+    background:-moz-linear-gradient(top, #23bbf7, #ff6f00);
+    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #23bbf7), color-stop(100%, #ff6f00));
     background-attachment: fixed;
 }
 
