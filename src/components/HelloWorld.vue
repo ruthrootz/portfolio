@@ -51,14 +51,24 @@
             <h1>websites</h1>
             <ul>
                 <li class="demo">
-                    <a href="https://boringweather.netlify.app/" target="_blank">boring weather
-                    <div><img class="demo-image" src="@/assets/boringweather.png" alt="screenshot of weather web app" /></div></a>
-                    <div>enter zip codes and get the weather</div>
-                    <div>[HTML, CSS, jQuery, Bootstrap]</div>
+                    <div class="foggy-glass">
+                        <a href="https://boringweather.netlify.app/" target="_blank">boring weather
+                            <div>
+                                <img class="demo-image" src="@/assets/boringweather.png" alt="screenshot of weather web app" />
+                            </div>
+                        </a>
+                        <div>enter zip codes and get the weather</div>
+                        <div>[HTML, CSS, jQuery, Bootstrap]</div>
+                    </div>
                 </li>
                 <li class="demo">
-                    <a href="https://cubingtrainer.netlify.app/" target="_blank">cubing trainer
-                    <div><img class="demo-image" src="@/assets/cubingtrainer.png" alt="screenshot of cubing timer web app" /></div></a>
+                    <div>
+                        <a href="https://cubingtrainer.netlify.app/" target="_blank">cubing trainer
+                            <div>
+                                <img class="demo-image" src="@/assets/cubingtrainer.png" alt="screenshot of cubing timer web app" />
+                            </div>
+                        </a>
+                    </div>
                     <div>a speedcubing timer with chart and import/export</div>
                     <div>[Vue, TypeScript, Bootstrap]</div>
                 </li>
@@ -66,14 +76,24 @@
             <h1>podcasts</h1>
             <ul>
                 <li class="demo">
-                    <a href="https://betterwithbooks.transistor.fm/" target="_blank">Better With Books
-                    <div><img class="demo-image" src="@/assets/books.jpg" alt="better with books podcast cover art" /></div></a>
-                    <div>books + good ideas = Better With Books</div>
+                    <div class="foggy-glass">
+                        <a href="https://betterwithbooks.transistor.fm/" target="_blank">Better With Books
+                            <div>
+                                <img class="demo-image" src="@/assets/books.jpg" alt="better with books podcast cover art" />
+                            </div>
+                        </a>
+                        <div>books + good ideas = Better With Books</div>
+                    </div>
                 </li>
                 <li class="demo">
-                    <a href="https://wasawkwardpod.transistor.fm/" target="_blank">That Was Awkward
-                    <div><img class="demo-image" src="@/assets/awkward.jpg" alt="that was awkward podcast cover art" /></div></a>
-                    <div>two girls talking about psychology and solcilizing</div>
+                    <div class="foggy-glass">
+                        <a href="https://wasawkwardpod.transistor.fm/" target="_blank">That Was Awkward
+                            <div>
+                                <img class="demo-image" src="@/assets/awkward.jpg" alt="that was awkward podcast cover art" />
+                            </div>
+                        </a>
+                        <div>two girls talking about psychology and solcilizing</div>
+                    </div>
                 </li>
             </ul>
         </div>
