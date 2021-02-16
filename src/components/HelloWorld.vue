@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h1>Hi, I'm Ruth! Take a look around my portfolio.</h1>
         <div class="section">
             <h1>my stack</h1>
             <ul class="stack">
@@ -48,7 +49,7 @@
             </ul>
         </div>
         <div class="section">
-            <h1>websites</h1>
+            <h1>my projects</h1>
             <ul>
                 <li class="foggy-glass demo">
                     <a href="https://boringweather.netlify.app/" target="_blank">boring weather
@@ -68,9 +69,6 @@
                     <div>a speedcubing timer with chart and import/export</div>
                     <div>[Vue, TypeScript, Bootstrap]</div>
                 </li>
-            </ul>
-            <h1>podcasts</h1>
-            <ul>
                 <li class="foggy-glass demo">
                     <a href="https://betterwithbooks.transistor.fm/" target="_blank">Better With Books
                         <div>

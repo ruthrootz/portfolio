@@ -5,13 +5,13 @@
             <router-link to="/about">about</router-link> |
             <router-link to="/blog">blog</router-link>
         </div>
-        <router-link to="/"><img class="r-icon" alt="small R logo" src="@/assets/r.png" /></router-link>
         <router-view />
         <footer>&copy; copyright 2021 Ruth R. Oldja</footer>
     </div>
 </template>
 
 <style>
+
 html {
     background-color:#23bbf7;
     background-image: linear-gradient(#23bbf7, #ff6f00);
@@ -78,8 +78,9 @@ p {
 .foggy-glass {
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
-    padding: 2%;
     border-radius: 2%;
+    padding: 2%;
+    margin: 3%;
 }
 
 .stack {
