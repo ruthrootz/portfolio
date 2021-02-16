@@ -62,7 +62,7 @@
                     </div>
                 </li>
                 <li class="demo">
-                    <div>
+                    <div class="foggy-glass">
                         <a href="https://cubingtrainer.netlify.app/" target="_blank">cubing trainer
                             <div>
                                 <img class="demo-image" src="@/assets/cubingtrainer.png" alt="screenshot of cubing timer web app" />
