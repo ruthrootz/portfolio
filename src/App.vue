@@ -75,6 +75,19 @@ p {
     margin: 0 auto;
 }
 
+.foggy-glass {
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    padding: 2%;
+    border-radius: 2%;
+}
+
+.stack {
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    padding: 2%;
+}
+
 .blog {
     width: 50%;
     margin: 0 auto;
@@ -82,6 +95,11 @@ p {
 
 .article {
     text-align: left;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    margin: 5%;
+    padding: 2%;
+    border-radius: 2%;
 }
 
 .section {
