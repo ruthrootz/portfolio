@@ -90,7 +90,7 @@ p {
 }
 
 .blog {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -104,6 +104,7 @@ p {
 
 .article {
     margin: 0 auto;
+    width: 60%;
 }
 
 .section {
