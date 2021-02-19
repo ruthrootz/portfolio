@@ -94,13 +94,16 @@ p {
     margin: 0 auto;
 }
 
-.article {
+.post, .article {
     text-align: left;
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
-    margin: 5%;
+    margin: 5% auto;
     padding: 2%;
-    border-radius: 2%;
+}
+
+.article {
+    margin: 0 auto;
 }
 
 .section {
@@ -112,7 +115,7 @@ p {
 }
 
 .demo-image {
-    width: 350px;
+    width: 90%;
     border-radius: 3%;
 }
 
@@ -129,5 +132,20 @@ p {
 
 .li-icon {
     width: 6%;
+}
+
+@media only screen and (max-width: 800px) {
+    .demo {
+        width: 90%;
+    }
+
+    .stack-text {
+        display: none;
+    }
+
+    .blog, .article {
+        width: 90%;
+        border-radius: 0%;
+    }
 }
 </style>
