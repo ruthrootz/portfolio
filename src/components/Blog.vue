@@ -3,7 +3,7 @@
         <h1>blog</h1>
         <div class="blog">
             <div v-for="article in articles" :key="article.id">
-                <div class="article">
+                <div class="post">
                     <h3><router-link :to="{ name: 'article', params: { id: article.id } }">{{ article.title }}</router-link></h3>
                     <h5>{{ article.publishDate }}</h5>
                     <div v-html="article.previewText"></div>

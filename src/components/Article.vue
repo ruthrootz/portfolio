@@ -1,5 +1,5 @@
 <template>
-    <div class="center">
+    <div>
         <div class="article">
             <h3>{{ article.title }}</h3>
             <h5>{{ article.publishDate }}</h5>
