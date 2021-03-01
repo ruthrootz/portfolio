@@ -14,8 +14,5 @@ export default class Article extends Vue {
         );
     }
 
-    private test(): void {
-        console.log('I got Vim working swimmingly!');
-    }
 }
 
