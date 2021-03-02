@@ -83,7 +83,7 @@
                             <img class="demo-image" src="@/assets/awkward.jpg" alt="that was awkward podcast cover art" />
                         </div>
                     </a>
-                    <div>two girls talking about psychology and solcilizing</div>
+                    <div>two girls talking about psychology and socializing</div>
                 </li>
             </ul>
         </div>
