@@ -1,4 +1,4 @@
-class Article {
+export class Article {
     public title: string;
     public publishDate: Date;
     public text: string;

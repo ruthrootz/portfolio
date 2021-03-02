@@ -1,16 +1,15 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Article } from '@/models/Article';
 
 @Component
-export default class Article extends Vue {
-    @Prop()
-    private id = '';
+export default class ArticleComponent extends Vue {
 
-    private article = null;
+    private article: Article = new Article('', new Date(), '', []);
 
     private mounted(): void {
         this.id = this.$route.params.id;
         this.article = this.$store.state.articles.find(
-            (a: Article) => a.id === this.id
+            (a: Article) => a.id == this.id
         );
     }
 

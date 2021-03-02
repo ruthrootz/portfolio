@@ -1,10 +1,13 @@
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue } from 'vue-property-decorator';
+import { Article } from '@/models/Article';
 
 @Component
-export default class Blog extends Vue {
+export default class BlogComponent extends Vue {
+
     private articles: any[] = [];
 
     private mounted(): void {
-        this.articles = this.$store.state.articles.sort((a, b) => (a.id < b.id) ? 1 : -1);
+        this.articles = this.$store.state.articles.sort((a: Article, b: Article) => (a.id < b.id) ? 1 : -1);
     }
+
 }
