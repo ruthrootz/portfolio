@@ -7,7 +7,7 @@ export default new Vuex.Store({
     state: {
         articles: [
             {
-                id: 6,
+                id: "6",
                 title: "Solaris - spoiler review",
                 publishDate: "02/08/21",
                 previewText:
@@ -17,7 +17,7 @@ export default new Vuex.Store({
                 tags: ["Reading", "Books", "Review"],
             },
             {
-                id: 5,
+                id: "5",
                 title: "Ender's Game - spoiler-free review",
                 publishDate: "02/08/2021",
                 previewText:
@@ -27,7 +27,7 @@ export default new Vuex.Store({
                 tags: ["Books", "Review", "Reading"],
             },
             {
-                id: 4,
+                id: "4",
                 title: "The Left Hand of Darkness - spoiler review",
                 publishDate: "02/02/2021",
                 previewText:
@@ -37,7 +37,7 @@ export default new Vuex.Store({
                 tags: ["Books", "Review", "Reading"],
             },
             {
-                id: 3,
+                id: "3",
                 publishDate: "12/26/2020",
                 title:
                     "Why There Will Always Be War - Slaughterhouse-Five by Kurt Vonnegut",
@@ -48,7 +48,7 @@ export default new Vuex.Store({
                 tags: ["Books", "Review", "Reading"],
             },
             {
-                id: 2,
+                id: "2",
                 publishDate: "12/20/2020",
                 title:
                     "All Systems Red (Murderbot Diaries #1) - spoiler-free review",
@@ -59,7 +59,7 @@ export default new Vuex.Store({
                 tags: ["Books", "Review", "Reading"],
             },
             {
-                id: 1,
+                id: "1",
                 publishDate: "12/19/2020",
                 title:
                     "House of Suns by Alastair Reynolds - spoiler-free review",
@@ -70,7 +70,7 @@ export default new Vuex.Store({
                 tags: ["Books", "Review", "Reading"],
             },
             {
-                id: 7,
+                id: "7",
                 title: "I, Robot - spoiler-free review",
                 publishDate: "03/01/2021",
                 previewText: '<p><a href=“https://www.goodreads.com/book/show/17470669-i-robot”>I, Robot</a> is a collection of short stories by Issac Assimov that were originally published between 1940 and 1950, when Assimov was 20-30 years old. For the time they were written in and considering what a young writer Assimov was at the time, it’s a truly amazing piece of fiction. But I’m not telling you to read a book just because it was good for some certain place or time. I want to tell you whether I, Robot is worth reading <i>today</i>.<p>.....</p>',
