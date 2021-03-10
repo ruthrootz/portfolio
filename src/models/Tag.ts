@@ -1,10 +1,10 @@
 enum Tag {
-    Tech,
-    Reading,
-    Books,
-    Coding,
-    Productivity,
-    Running,
-    WebDevelopment,
-    Review,
+    tech,
+    reading,
+    books,
+    coding,
+    productivity,
+    running,
+    webDevelopment,
+    review,
 }
