@@ -70,6 +70,17 @@
                     <div>[Vue, TypeScript, Bootstrap]</div>
                 </li>
                 <li class="foggy-glass demo">
+                    <a href="https://mdcworldmap.herokuapp.com/" target="_blank">MDC world map
+                        <div>
+                            <img class="demo-image" src="@/assets/mdcmap.png" alt="screenshot of world map web app" />
+                        </div>
+                    </a>
+                    <div>members of the MDC community can mark their location</div>
+                    <div>[Django, HTML, CSS, Bootstrap]</div>
+                </li>
+            </ul>
+            <ul>
+                <li class="foggy-glass demo">
                     <a href="https://betterwithbooks.transistor.fm/" target="_blank">Better With Books
                         <div>
                             <img class="demo-image" src="@/assets/books.jpg" alt="better with books podcast cover art" />
