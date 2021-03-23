@@ -8,10 +8,10 @@ export default new Vuex.Store({
         articles: [
             {
                 id: "11",
-                title: "Do Androids Dream of Electric Sheep? - spoiler-free review",
+                title: "Do Androids Dream of Electric Sheep? - Better With Books podcast review",
                 publishDate: "03/22/2021",
-                previewText: 'a review and discussion of PKD\'s Do Androids Dream of Electric Sheep?</p><p>.....</p>',
-                text: '<p><a href="https://betterwithbooks.transistor.fm/32" target="_blank">Better With Books episode #X</a>: a review and discussion of PKD\'s Do Androids Dream of Electric Sheep?</p>',
+                previewText: '<a href="https://betterwithbooks.transistor.fm/32" target="_blank">Better With Books episode #32</a>: a review and discussion of PKD\'s Do Androids Dream of Electric Sheep?</p>',
+                text: '<p><a href="https://betterwithbooks.transistor.fm/32" target="_blank">Better With Books episode #32</a>: a review and discussion of PKD\'s Do Androids Dream of Electric Sheep?</p>',
                 tags: ["review", "reading", "books"],
             },
             {
