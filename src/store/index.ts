@@ -10,7 +10,7 @@ export default new Vuex.Store({
                 id: "12",
                 title: "The Lathe of Heaven - spoiler-free review",
                 publishDate: "04/02/2021",
-                previewText: '',
+                previewText: '<p><a href=“https://www.goodreads.com/book/show/59924.The_Lathe_of_Heaven” target=“_blank”>The Lathe of Heaven</a> by Ursula K. Le Guin is a story about a man, George Orr, whose dreams come true—not his aspirations but the dreams he dreams while sleeping. The problem is, he can’t control his dreams.</p>',
                 text: '',
                 tags: ["review", "reading", "books"],
             },
