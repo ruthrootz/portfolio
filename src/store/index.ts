@@ -10,7 +10,7 @@ export default new Vuex.Store({
                 id: "13",
                 title: "Chess Story - book review",
                 publishDate: "04/26/2021",
-                previewText: '',
+                previewText: '<p>I don’t know if I could spoil <a href="https://www.goodreads.com/book/show/59151.Chess_Story" target="_blank">Chess Story (1942, Stefan Zweig)</a> even if I tried. The book isn’t so much a story as an exploration of madness and a couple of the ways that madness manifests itself.</p>',
                 text: '',
                 tags: ["review", "reading", "books"],
             },
