@@ -15,9 +15,9 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.kaggle.com/ruthrootz" target="_blank">
-                    <img class="icon" src="@/assets/kaggle.png" alt="kaggle logo" />
-                    Kaggle
+                <a href="https://www.linkedin.com/in/ruth-oldja-3b1305141/" target="_blank">
+                    <img class="icon" src="@/assets/linkedin.png" alt="linkedin logo" />
+                    LinkedIn
                 </a>
             </li>
             <li>
@@ -27,9 +27,9 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/ruth-oldja-3b1305141/" target="_blank">
-                    <img class="icon" src="@/assets/linkedin.png" alt="linkedin logo" />
-                    LinkedIn
+                <a href="https://www.kaggle.com/ruthrootz" target="_blank">
+                    <img class="icon" src="@/assets/kaggle.png" alt="kaggle logo" />
+                    Kaggle
                 </a>
             </li>
             <li>
