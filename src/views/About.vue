@@ -29,7 +29,13 @@
             <li>
                 <a href="https://www.quantconnect.com/u/ruth-o" target="_blank">
                     <img class="icon" src="@/assets/quantconnect.png" alt="quantconnect logo" />
-                    quantconnect
+                    QuantConnect
+                </a>
+            </li>
+            <li>
+                <a href="https://www.kaggle.com/ruthrootz" target="_blank">
+                    <img class="icon" src="@/assets/kaggle.png" alt="kaggle logo" />
+                    Kaggle
                 </a>
             </li>
         </ul>
