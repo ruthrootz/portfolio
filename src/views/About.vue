@@ -1,11 +1,11 @@
 <template>
-    <div class="center">
+    <div class="center section">
         <h1>about</h1>
         <p>
             book person. coder person. podcast person. always learning person.
             too many interests person.
         </p>
-        <ul class="section">
+        <ul>
             <li>
                 <a href="https://github.com/ruthrootz" target="_blank">
                     <svg viewBox="0 0 128 128">
