@@ -102,6 +102,10 @@ p {
     padding: 2%;
 }
 
+.about {
+    text-align: center;
+}
+
 .article {
     margin: 0 auto;
     width: 60%;
