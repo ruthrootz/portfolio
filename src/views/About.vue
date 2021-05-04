@@ -5,7 +5,7 @@
             book person. coder person. podcast person. always learning person.
             too many interests person.
         </p>
-        <ul>
+        <ul class="section">
             <li>
                 <a href="https://github.com/ruthrootz" target="_blank">
                     <svg viewBox="0 0 128 128">
