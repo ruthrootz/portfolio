@@ -94,12 +94,16 @@ p {
     margin: 0 auto;
 }
 
-.post, .article {
+.post, .article, .about {
     text-align: left;
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
     margin: 5% auto;
     padding: 2%;
+}
+
+.about {
+    text-align: center;
 }
 
 .article {
