@@ -3,7 +3,7 @@
         <h1>about</h1>
         <div class="about">
             <p>
-                book person. coder person. always learning person.
+                book person. code person. always learning person.
             </p>
             <ul>
                 <li>
