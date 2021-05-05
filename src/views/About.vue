@@ -3,8 +3,7 @@
         <h1>about</h1>
         <div class="about">
             <p>
-                book person. coder person. podcast person. always learning person.
-                too many interests person.
+                book person. coder person. always learning person.
             </p>
             <ul>
                 <li>
