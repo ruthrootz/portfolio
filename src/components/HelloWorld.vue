@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="section"><h1>Hi, I'm Ruth! Take a look around my portfolio.</h1></div>
+        <div class="section"><h1>Hi, I'm Ruth, a full-stack web dev.</h1></div>
         <div class="section">
             <h1>my stack</h1>
             <ul class="stack">
