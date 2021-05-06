@@ -42,3 +42,5 @@
         </div>
     </div>
 </template>
+
+<script lang="ts" src="./About.ts" />
