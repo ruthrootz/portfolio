@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
-import Home from "@/views/Home.vue";
-import About from "@/views/About.vue";
+import HomeView from "@/views/HomeView.vue";
+import AboutView from "@/views/AboutView.vue";
 import BlogView from "@/views/BlogView.vue";
 import Article from "@/components/Article.vue";
 
@@ -11,17 +11,17 @@ const routes: Array<RouteConfig> = [
   {
     path: "/",
     name: "home",
-    component: Home
+    component: HomeView,
   },
   {
     path: "/about",
     name: "about",
-    component: About
+    component: AboutView,
   },
   {
     path: "/blog",
     name: "blog",
-    component: BlogView
+    component: BlogView,
   },
   {
     path: "/blog/:id",
@@ -33,7 +33,7 @@ const routes: Array<RouteConfig> = [
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes
+  routes,
 });
 
 export default router;

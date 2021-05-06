@@ -1,17 +1,17 @@
 <template>
     <div>
-        <Blog />
+        <About />
     </div>
 </template>
 
 <script>
 
-import Blog from "@/components/Blog.vue";
+import About from "@/components/About.vue";
 
 export default {
-    name: "BlogView",
+    name: "About",
     components: {
-        Blog,
+        About,
     },
 };
 
