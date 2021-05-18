@@ -7,6 +7,14 @@ export default new Vuex.Store({
     state: {
         articles: [
             {
+                id: "14",
+                title: "Project Hail Mary - spoiler-free book review",
+                publishDate: "05/18/2021",
+                previewText: '<p><a href="https://www.goodreads.com/book/show/54493401-project-hail-mary" target="_blank">Project Hail Mary (2021, Andy Weir)</a></p>',
+                text: '',
+                tags: ["review", "reading", "books"],
+            },
+            {
                 id: "13",
                 title: "Chess Story - book review",
                 publishDate: "04/26/2021",
