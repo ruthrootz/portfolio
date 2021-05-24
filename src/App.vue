@@ -104,6 +104,7 @@ p {
 
 .about {
     text-align: center;
+    margin: 0px: auto;
 }
 
 .article {
@@ -156,7 +157,7 @@ p {
 
 #gr_custom_widget_1621862472 {
     margin: 0px auto;
-    font-size: 50%;
+    font-size: 50% !important;
 }
 
 .gr_custom_container_1621862472 {
