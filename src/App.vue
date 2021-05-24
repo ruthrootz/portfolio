@@ -104,7 +104,6 @@ p {
 
 .about {
     text-align: center;
-    margin: 0px auto;
 }
 
 .article {
