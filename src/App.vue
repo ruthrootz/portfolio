@@ -187,7 +187,6 @@ p {
 }
 
 .gr_custom_book_container_1621862472 {
-    overflow: hidden;
     height: 60px;
     float: left;
     margin-right: 4px;
