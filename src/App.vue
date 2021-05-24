@@ -32,7 +32,7 @@ ul {
 
 li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0px 10px;
 }
 
 a {
@@ -72,7 +72,7 @@ p {
 
 .center {
     width: 75%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .foggy-glass {
@@ -91,7 +91,7 @@ p {
 
 .blog {
     width: 60%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .post, .article, .about {
@@ -107,7 +107,7 @@ p {
 }
 
 .article {
-    margin: 0 auto;
+    margin: 0px auto;
     width: 60%;
 }
 
@@ -127,7 +127,7 @@ p {
 .icon {
     width: 97px;
     display: block;
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 13px;
 }
 
@@ -152,6 +152,10 @@ p {
         width: 90%;
         border-radius: 0%;
     }
+}
+
+#gr_custom_widget_1621862472 {
+    margin: 0px auto;
 }
 
 .gr_custom_container_1621862472 {
