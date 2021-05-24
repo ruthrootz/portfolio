@@ -39,75 +39,112 @@
                     </a>
                 </li>
             </ul>
-      <div id="gr_custom_widget_1621862472">
-          <div class="gr_custom_container_1621862472">
-    <h2 class="gr_custom_header_1621862472">
-    <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/72249220-ruth?shelf=currently-reading&amp;utm_medium=api&amp;utm_source=custom_widget">currently-reading</a>
-    </h2>
-      <div class="gr_custom_each_container_1621862472">
-          <div class="gr_custom_book_container_1621862472">
-            <a title="Revelation Space (The Inhibitor Trilogy Book 1)" rel="nofollow" href="https://www.goodreads.com/review/show/3674050497?utm_medium=api&amp;utm_source=custom_widget"><img alt="Revelation Space" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610464023l/49015373._SY75_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1621862472">
-            <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1621862472">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/3674050497?utm_medium=api&amp;utm_source=custom_widget">Revelation Space</a>
-          </div>
-          <div class="gr_custom_author_1621862472">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/51204.Alastair_Reynolds">Alastair Reynolds</a>
-          </div>
-          <div class="gr_custom_tags_1621862472">
-            tagged:
-            currently-reading and owned
-          </div>
-      </div>
-      <div class="gr_custom_each_container_1621862472">
-          <div class="gr_custom_book_container_1621862472">
-            <a title="The Bookshop on the Corner (Scottish Bookshop, #1)" rel="nofollow" href="https://www.goodreads.com/review/show/3710419106?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Bookshop on the Corner" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465668472l/28372019._SY75_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1621862472">
-            <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1621862472">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/3710419106?utm_medium=api&amp;utm_source=custom_widget">The Bookshop on the Corner</a>
-          </div>
-          <div class="gr_custom_author_1621862472">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/39272.Jenny_Colgan">Jenny Colgan</a>
-          </div>
-          <div class="gr_custom_tags_1621862472">
-            tagged:
-            owned and currently-reading
-          </div>
-      </div>
-      <div class="gr_custom_each_container_1621862472">
-          <div class="gr_custom_book_container_1621862472">
-            <a title="Notes from Underground" rel="nofollow" href="https://www.goodreads.com/review/show/3845679140?utm_medium=api&amp;utm_source=custom_widget"><img alt="Notes from Underground" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328322928l/6568440._SX50_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1621862472">
-            <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1621862472">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/3845679140?utm_medium=api&amp;utm_source=custom_widget">Notes from Underground</a>
-          </div>
-          <div class="gr_custom_author_1621862472">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/3137322.Fyodor_Dostoyevsky">Fyodor Dostoyevsky</a>
-          </div>
-          <div class="gr_custom_tags_1621862472">
-            tagged:
-            currently-reading and owned
-          </div>
-      </div>
-  <br style="clear: both"/>
-  <center>
-    <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
-  </center>
-  <noscript>
-    Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Ruth, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
-  </noscript>
-  </div>
-      </div>
-      <script src="https://www.goodreads.com/review/custom_widget/72249220.currently-reading?cover_position=left&cover_size=small&num_books=5&order=a&shelf=currently-reading&show_author=1&show_cover=1&show_rating=1&show_review=1&show_tags=1&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=true&widget_border_width=1&widget_id=1621862472&widget_text_color=2c3e50&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>
+            <div id="gr_custom_widget_1621862472">
+                <div class="gr_custom_container_1621862472">
+                    <h2 class="gr_custom_header_1621862472">
+                        <a style="text-decoration: none;" rel="nofollow"
+                            href="https://www.goodreads.com/review/list/72249220-ruth?shelf=currently-reading&amp;utm_medium=api&amp;utm_source=custom_widget">currently-reading</a>
+                    </h2>
+                    <div class="gr_custom_each_container_1621862472">
+                        <div class="gr_custom_book_container_1621862472">
+                            <a title="Revelation Space (The Inhibitor Trilogy Book 1)" rel="nofollow"
+                                href="https://www.goodreads.com/review/show/3674050497?utm_medium=api&amp;utm_source=custom_widget"><img
+                                    alt="Revelation Space" border="0"
+                                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610464023l/49015373._SY75_.jpg" /></a>
+                        </div>
+                        <div class="gr_custom_rating_1621862472">
+                            <span class=" staticStars notranslate"><img
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
+                        </div>
+                        <div class="gr_custom_title_1621862472">
+                            <a rel="nofollow"
+                                href="https://www.goodreads.com/review/show/3674050497?utm_medium=api&amp;utm_source=custom_widget">Revelation
+                                Space</a>
+                        </div>
+                        <div class="gr_custom_author_1621862472">
+                            by <a rel="nofollow" href="https://www.goodreads.com/author/show/51204.Alastair_Reynolds">Alastair
+                                Reynolds</a>
+                        </div>
+                        <div class="gr_custom_tags_1621862472">
+                            tagged:
+                            currently-reading and owned
+                        </div>
+                    </div>
+                    <div class="gr_custom_each_container_1621862472">
+                        <div class="gr_custom_book_container_1621862472">
+                            <a title="The Bookshop on the Corner (Scottish Bookshop, #1)" rel="nofollow"
+                                href="https://www.goodreads.com/review/show/3710419106?utm_medium=api&amp;utm_source=custom_widget"><img
+                                    alt="The Bookshop on the Corner" border="0"
+                                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465668472l/28372019._SY75_.jpg" /></a>
+                        </div>
+                        <div class="gr_custom_rating_1621862472">
+                            <span class=" staticStars notranslate"><img
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
+                        </div>
+                        <div class="gr_custom_title_1621862472">
+                            <a rel="nofollow"
+                                href="https://www.goodreads.com/review/show/3710419106?utm_medium=api&amp;utm_source=custom_widget">The
+                                Bookshop on the Corner</a>
+                        </div>
+                        <div class="gr_custom_author_1621862472">
+                            by <a rel="nofollow" href="https://www.goodreads.com/author/show/39272.Jenny_Colgan">Jenny Colgan</a>
+                        </div>
+                        <div class="gr_custom_tags_1621862472">
+                            tagged:
+                            owned and currently-reading
+                        </div>
+                    </div>
+                    <div class="gr_custom_each_container_1621862472">
+                        <div class="gr_custom_book_container_1621862472">
+                            <a title="Notes from Underground" rel="nofollow"
+                                href="https://www.goodreads.com/review/show/3845679140?utm_medium=api&amp;utm_source=custom_widget"><img
+                                    alt="Notes from Underground" border="0"
+                                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328322928l/6568440._SX50_.jpg" /></a>
+                        </div>
+                        <div class="gr_custom_rating_1621862472">
+                            <span class=" staticStars notranslate"><img
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
+                        </div>
+                        <div class="gr_custom_title_1621862472">
+                            <a rel="nofollow"
+                                href="https://www.goodreads.com/review/show/3845679140?utm_medium=api&amp;utm_source=custom_widget">Notes
+                                from Underground</a>
+                        </div>
+                        <div class="gr_custom_author_1621862472">
+                            by <a rel="nofollow" href="https://www.goodreads.com/author/show/3137322.Fyodor_Dostoyevsky">Fyodor
+                                Dostoyevsky</a>
+                        </div>
+                        <div class="gr_custom_tags_1621862472">
+                            tagged:
+                            currently-reading and owned
+                        </div>
+                    </div>
+                    <br style="clear: both" />
+                    <center>
+                        <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0"
+                                src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
+                    </center>
+                    <noscript>
+                        Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Ruth, and even
+                        join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
+                    </noscript>
+                </div>
+            </div>
+            <script
+                src="https://www.goodreads.com/review/custom_widget/72249220.currently-reading?cover_position=left&cover_size=small&num_books=5&order=a&shelf=currently-reading&show_author=1&show_cover=1&show_rating=1&show_review=1&show_tags=1&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=true&widget_border_width=1&widget_id=1621862472&widget_text_color=2c3e50&widget_title_size=medium&widget_width=medium"
+                type="text/javascript" charset="utf-8"></script>
         </div>
     </div>
 </template>
