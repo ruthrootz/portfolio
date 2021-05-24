@@ -154,13 +154,14 @@ p {
     }
 }
 
- .gr_custom_container_1621862472 {
+.gr_custom_container_1621862472 {
     border: 1px solid gray;
     border-radius:10px;
     padding: 10px 5px 10px 5px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
     color: #2c3e50;
-    width: 300px
+    width: 300px;
 }
 
 .gr_custom_header_1621862472 {
@@ -168,7 +169,6 @@ p {
     width: 100%;
     margin-bottom: 5px;
     text-align: center;
-    font-size: 120%
 }
 
 .gr_custom_each_container_1621862472 {
