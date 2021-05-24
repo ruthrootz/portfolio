@@ -156,6 +156,7 @@ p {
 
 #gr_custom_widget_1621862472 {
     margin: 0px auto;
+    font-size: 50%;
 }
 
 .gr_custom_container_1621862472 {
