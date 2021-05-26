@@ -117,7 +117,6 @@ p {
 
 .demo {
     width: 40%;
-    height: 50vh;
 }
 
 .demo-image {
