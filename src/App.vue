@@ -117,11 +117,11 @@ p {
 
 .demo {
     width: 40%;
+    min-height: 50vh;
 }
 
 .demo-image {
     width: 90%;
-    min-height: 50vh;
     border-radius: 3%;
 }
 
