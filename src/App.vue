@@ -116,7 +116,10 @@ p {
 }
 
 .demo {
-    width: 40%;
+    width: 50%;
+    margin: 0px auto;
+    display: block;
+    margin: 1% auto;
 }
 
 .demo-image {
@@ -151,6 +154,10 @@ p {
     .blog, .article {
         width: 90%;
         border-radius: 0%;
+    }
+
+    .section {
+        font-size: 0.75rem;
     }
 }
 
