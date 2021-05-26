@@ -141,7 +141,7 @@ p {
 
 @media only screen and (max-width: 800px) {
     .demo {
-        height: 50vh;
+        width: 90%;
     }
 
     .stack-text {
