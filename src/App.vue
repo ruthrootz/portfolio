@@ -120,7 +120,7 @@ p {
 }
 
 .demo-image {
-    width: 90%;
+    height: 200px;
     border-radius: 3%;
 }
 
