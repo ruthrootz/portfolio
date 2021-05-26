@@ -84,7 +84,7 @@
                             <img class="demo-image" src="@/assets/alg.png" alt="screenshot of trading algorithm results" />
                         </div>
                     </a>
-                    <div>a momentum based allocation algorithm</div>
+                    <div>a momentum based allocation algorithm built on QuantConnect</div>
                     <div>[Python, QuantConnect/LEAN]</div>
                 </li>
             </ul>
