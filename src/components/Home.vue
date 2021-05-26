@@ -78,6 +78,15 @@
                     <div>members of the MDC community can mark their location</div>
                     <div>[Django, HTML, CSS, Bootstrap]</div>
                 </li>
+                <li class="foggy-glass demo">
+                    <a href="" target="_blank">trading algorithm
+                        <div>
+                            <img class="demo-image" src="@/assets/alg.png" alt="screenshot of trading algorithm results" />
+                        </div>
+                    </a>
+                    <div>a momentum based allocation algorithm</div>
+                    <div>[Python, QuantConnect/LEAN]</div>
+                </li>
             </ul>
             <ul>
                 <li class="foggy-glass demo">
