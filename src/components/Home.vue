@@ -79,7 +79,7 @@
                     <div>[Django, HTML, CSS, Bootstrap]</div>
                 </li>
                 <li class="foggy-glass demo">
-                    <a href="" target="_blank">trading algorithm
+                    <a href="https://github.com/ruthrootz/quantconnect-trading-algorithm" target="_blank">trading algorithm
                         <div>
                             <img class="demo-image" src="@/assets/alg.png" alt="screenshot of trading algorithm results" />
                         </div>
