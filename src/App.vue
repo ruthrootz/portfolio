@@ -41,7 +41,7 @@ a {
     font-size: 1.5rem;
 }
 
-p>a {
+p > a {
     font-size: 1.2rem;
 }
 
@@ -120,6 +120,7 @@ p {
 }
 
 .demo-image {
+    width: 90%;
     height: 50vh;
     border-radius: 3%;
 }
