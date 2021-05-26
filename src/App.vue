@@ -143,6 +143,7 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
+
     .demo {
         width: 90%;
     }
@@ -159,6 +160,7 @@ p {
     .section {
         font-size: 0.75rem;
     }
+
 }
 
 </style>
