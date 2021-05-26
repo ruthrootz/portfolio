@@ -121,7 +121,6 @@ p {
 
 .demo-image {
     width: 90%;
-    height: 50vh;
     border-radius: 3%;
 }
 
