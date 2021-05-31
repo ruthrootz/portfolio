@@ -87,7 +87,6 @@ p {
 .projects {
     flex-basis: 0;
     flex-grow: 999;
-    min-width: 40%;      
 }
 
 .center {
@@ -136,7 +135,7 @@ p {
 }
 
 .demo {
-    width: 50%;
+    width: 90%;
     margin: 0px auto;
     display: block;
     margin: 1% auto;
