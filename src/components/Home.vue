@@ -51,32 +51,30 @@
         <div class="section main">
             <div class="sidebar foggy-glass">
                 <h1>my projects</h1>
-                <ul>
-                    <h2>websites</h2>
-                    <li>
-                        <a href="#">test link</a>
-                    </li>
-                    <li>
-                        <a href="#">test link</a>
-                    </li>
-                    <li>
-                        <a href="#">test link</a>
-                    </li>
-                    <h2>other code</h2>
-                    <li>
-                        <a href="#">test link</a>
-                    </li>
-                    <li>
-                        <a href="#">test link</a>
-                    </li>
-                    <h2>podcasts</h2>
-                    <li>
-                        <a href="#">test link</a>
-                    </li>
-                    <li>
-                        <a href="#">test link</a>
-                    </li>
-                </ul>
+                <h2>websites</h2>
+                <li style="display: block">
+                    <a href="#">test link</a>
+                </li>
+                <li style="display: block">
+                    <a href="#">test link</a>
+                </li>
+                <li style="display: block">
+                    <a href="#">test link</a>
+                </li>
+                <h2>other code</h2>
+                <li style="display: block">
+                    <a href="#">test link</a>
+                </li>
+                <li style="display: block">
+                    <a href="#">test link</a>
+                </li>
+                <h2>podcasts</h2>
+                <li style="display: block">
+                    <a href="#">test link</a>
+                </li>
+                <li style="display: block">
+                    <a href="#">test link</a>
+                </li>
             </div>
             <div class="projects">
                 <ul>
