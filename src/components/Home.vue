@@ -53,33 +53,33 @@
                 <h1>my projects</h1>
                 <h2>websites</h2>
                 <li style="display: block">
-                    <a href="cubing">cubing trainer</a>
+                    <a href="#cubing">cubing trainer</a>
                 </li>
                 <li style="display: block">
-                    <a href="mdc">MDC world map</a>
+                    <a href="#mdc">MDC world map</a>
                 </li>
                 <li style="display: block">
-                    <a href="weather">boring weather</a>
+                    <a href="#weather">boring weather</a>
                 </li>
                 <h2>other code</h2>
                 <li style="display: block">
-                    <a href="quant">trading algorithm</a>
+                    <a href="#quant">trading algorithm</a>
                 </li>
                 <li style="display: block">
-                    <a href="goodreads">Goodreads data project</a>
+                    <a href="#goodreads">Goodreads data project</a>
                 </li>
                 <h2>podcasts</h2>
                 <li style="display: block">
-                    <a href="bwb">Better With Books</a>
+                    <a href="#bwb">Better With Books</a>
                 </li>
                 <li style="display: block">
-                    <a href="awkward">That Was Awkward</a>
+                    <a href="#awkward">That Was Awkward</a>
                 </li>
             </div>
             <div class="projects">
                 <ul>
                     <li class="foggy-glass demo">
-                        <a href="https://cubingtrainer.netlify.app/" target="_blank">cubing trainer
+                        <a id="cubing" href="https://cubingtrainer.netlify.app/" target="_blank">cubing trainer
                             <div>
                                 <img class="demo-image" src="@/assets/cubingtrainer.png" alt="screenshot of cubing timer web app" />
                             </div>
@@ -88,7 +88,7 @@
                         <div>[Vue, TypeScript, Bootstrap]</div>
                     </li>
                     <li class="foggy-glass demo">
-                        <a href="https://github.com/ruthrootz/quantconnect-trading-algorithm" target="_blank">trading algorithm
+                        <a id="quant" href="https://github.com/ruthrootz/quantconnect-trading-algorithm" target="_blank">trading algorithm
                             <div>
                                 <img class="demo-image" src="@/assets/alg.png" alt="screenshot of trading algorithm results" />
                             </div>
@@ -97,7 +97,7 @@
                         <div>[Python, QuantConnect/LEAN]</div>
                     </li>
                     <li class="foggy-glass demo">
-                        <a href="https://mdcworldmap.herokuapp.com/" target="_blank">MDC world map
+                        <a id="mdc" href="https://mdcworldmap.herokuapp.com/" target="_blank">MDC world map
                             <div>
                                 <img class="demo-image" src="@/assets/mdcmap.png" alt="screenshot of world map web app" />
                             </div>
@@ -106,7 +106,7 @@
                         <div>[Django, HTML, CSS, Bootstrap]</div>
                     </li>
                     <li class="foggy-glass demo">
-                        <a href="https://boringweather.netlify.app/" target="_blank">boring weather
+                        <a id="weather" href="https://boringweather.netlify.app/" target="_blank">boring weather
                             <div>
                                 <img class="demo-image" src="@/assets/boringweather.png" alt="screenshot of weather web app" />
                             </div>
@@ -115,7 +115,7 @@
                         <div>[HTML, CSS, jQuery, Bootstrap]</div>
                     </li>
                     <li class="foggy-glass demo">
-                        <a href="https://www.kaggle.com/ruthrootz/my-goodreads-reading-data" target="_blank">Goodreads data project
+                        <a id="goodreads" href="https://www.kaggle.com/ruthrootz/my-goodreads-reading-data" target="_blank">Goodreads data project
                             <div>
                                 <img class="demo-image" src="@/assets/goodreadsdata.png" alt="screenshot of one of the charts" />
                             </div>
@@ -126,7 +126,7 @@
                 </ul>
                 <ul>
                     <li class="foggy-glass demo">
-                        <a href="https://betterwithbooks.transistor.fm/" target="_blank">Better With Books
+                        <a id="bwb" href="https://betterwithbooks.transistor.fm/" target="_blank">Better With Books
                             <div>
                                 <img class="demo-image" src="@/assets/books.jpg" alt="better with books podcast cover art" />
                             </div>
@@ -134,7 +134,7 @@
                         <div>books + good ideas = Better With Books</div>
                     </li>
                     <li class="foggy-glass demo">
-                        <a href="https://wasawkwardpod.transistor.fm/" target="_blank">That Was Awkward
+                        <a id="awkward" href="https://wasawkwardpod.transistor.fm/" target="_blank">That Was Awkward
                             <div>
                                 <img class="demo-image" src="@/assets/awkward.jpg" alt="that was awkward podcast cover art" />
                             </div>
