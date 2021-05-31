@@ -70,6 +70,20 @@ p {
     color: rgb(19, 19, 133);
 }
 
+.sidebar {
+    --offset: var(--space);
+    flex-grow: 1;
+    flex-basis: 300px;
+    align-self: start;
+    position: sticky;
+    top: var(--offset);
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .center {
     width: 75%;
     margin: 0px auto;

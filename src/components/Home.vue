@@ -48,8 +48,15 @@
                 </li>
             </ul>
         </div>
-        <div class="section">
+        <div class="section main">
             <h1>my projects</h1>
+            <div class="sidebar">
+                <ul>
+                    <li>
+                        <a href="#">test link</a>
+                    </li>
+                </ul>
+            </div>
             <ul>
                 <li class="foggy-glass demo">
                     <a href="https://cubingtrainer.netlify.app/" target="_blank">cubing trainer
