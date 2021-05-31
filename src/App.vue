@@ -80,15 +80,14 @@ p {
 }
 
 .main {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .projects {
-      flex-basis: 0;
-        flex-grow: 999;
-          min-width: 40%;
-          
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: 40%;      
 }
 
 .center {

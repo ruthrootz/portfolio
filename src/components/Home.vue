@@ -49,15 +49,36 @@
             </ul>
         </div>
         <div class="section main">
-            <div class="sidebar">
+            <div class="sidebar foggy-glass">
+                <h1>my projects</h1>
                 <ul>
+                    <h2>websites</h2>
+                    <li>
+                        <a href="#">test link</a>
+                    </li>
+                    <li>
+                        <a href="#">test link</a>
+                    </li>
+                    <li>
+                        <a href="#">test link</a>
+                    </li>
+                    <h2>other code</h2>
+                    <li>
+                        <a href="#">test link</a>
+                    </li>
+                    <li>
+                        <a href="#">test link</a>
+                    </li>
+                    <h2>podcasts</h2>
+                    <li>
+                        <a href="#">test link</a>
+                    </li>
                     <li>
                         <a href="#">test link</a>
                     </li>
                 </ul>
             </div>
             <div class="projects">
-                <h1>my projects</h1>
                 <ul>
                     <li class="foggy-glass demo">
                         <a href="https://cubingtrainer.netlify.app/" target="_blank">cubing trainer
