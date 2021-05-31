@@ -88,15 +88,6 @@
                         <div>[Vue, TypeScript, Bootstrap]</div>
                     </li>
                     <li class="foggy-glass demo">
-                        <a id="quant" href="https://github.com/ruthrootz/quantconnect-trading-algorithm" target="_blank">trading algorithm
-                            <div>
-                                <img class="demo-image" src="@/assets/alg.png" alt="screenshot of trading algorithm results" />
-                            </div>
-                        </a>
-                        <div>a momentum based allocation algorithm built on QuantConnect</div>
-                        <div>[Python, QuantConnect/LEAN]</div>
-                    </li>
-                    <li class="foggy-glass demo">
                         <a id="mdc" href="https://mdcworldmap.herokuapp.com/" target="_blank">MDC world map
                             <div>
                                 <img class="demo-image" src="@/assets/mdcmap.png" alt="screenshot of world map web app" />
@@ -113,6 +104,15 @@
                         </a>
                         <div>enter zip codes and get the weather</div>
                         <div>[HTML, CSS, jQuery, Bootstrap]</div>
+                    </li>
+                    <li class="foggy-glass demo">
+                        <a id="quant" href="https://github.com/ruthrootz/quantconnect-trading-algorithm" target="_blank">trading algorithm
+                            <div>
+                                <img class="demo-image" src="@/assets/alg.png" alt="screenshot of trading algorithm results" />
+                            </div>
+                        </a>
+                        <div>a momentum based allocation algorithm built on QuantConnect</div>
+                        <div>[Python, QuantConnect/LEAN]</div>
                     </li>
                     <li class="foggy-glass demo">
                         <a id="goodreads" href="https://www.kaggle.com/ruthrootz/my-goodreads-reading-data" target="_blank">Goodreads data project
