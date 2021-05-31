@@ -53,27 +53,27 @@
                 <h1>my projects</h1>
                 <h2>websites</h2>
                 <li style="display: block">
-                    <a href="#">test link</a>
+                    <a href="cubing">cubing trainer</a>
                 </li>
                 <li style="display: block">
-                    <a href="#">test link</a>
+                    <a href="mdc">MDC world map</a>
                 </li>
                 <li style="display: block">
-                    <a href="#">test link</a>
+                    <a href="weather">boring weather</a>
                 </li>
                 <h2>other code</h2>
                 <li style="display: block">
-                    <a href="#">test link</a>
+                    <a href="quant">trading algorithm</a>
                 </li>
                 <li style="display: block">
-                    <a href="#">test link</a>
+                    <a href="goodreads">Goodreads data project</a>
                 </li>
                 <h2>podcasts</h2>
                 <li style="display: block">
-                    <a href="#">test link</a>
+                    <a href="bwb">Better With Books</a>
                 </li>
                 <li style="display: block">
-                    <a href="#">test link</a>
+                    <a href="awkward">That Was Awkward</a>
                 </li>
             </div>
             <div class="projects">
