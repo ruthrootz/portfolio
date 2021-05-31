@@ -70,6 +70,25 @@ p {
     color: rgb(19, 19, 133);
 }
 
+.sidebar {
+    --offset: var(--space);
+    flex-grow: 1;
+    flex-basis: 300px;
+    align-self: start;
+    position: sticky;
+    top: var(--offset);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects {
+    flex-basis: 0;
+    flex-grow: 999;
+}
+
 .center {
     width: 75%;
     margin: 0px auto;
@@ -116,7 +135,7 @@ p {
 }
 
 .demo {
-    width: 50%;
+    width: 90%;
     margin: 0px auto;
     display: block;
     margin: 1% auto;
