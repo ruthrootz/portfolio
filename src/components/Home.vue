@@ -49,7 +49,6 @@
             </ul>
         </div>
         <div class="section main">
-            <h1>my projects</h1>
             <div class="sidebar">
                 <ul>
                     <li>
@@ -57,71 +56,74 @@
                     </li>
                 </ul>
             </div>
-            <ul>
-                <li class="foggy-glass demo">
-                    <a href="https://cubingtrainer.netlify.app/" target="_blank">cubing trainer
-                        <div>
-                            <img class="demo-image" src="@/assets/cubingtrainer.png" alt="screenshot of cubing timer web app" />
-                        </div>
-                    </a>
-                    <div>a speedcubing timer with chart and import/export</div>
-                    <div>[Vue, TypeScript, Bootstrap]</div>
-                </li>
-                <li class="foggy-glass demo">
-                    <a href="https://github.com/ruthrootz/quantconnect-trading-algorithm" target="_blank">trading algorithm
-                        <div>
-                            <img class="demo-image" src="@/assets/alg.png" alt="screenshot of trading algorithm results" />
-                        </div>
-                    </a>
-                    <div>a momentum based allocation algorithm built on QuantConnect</div>
-                    <div>[Python, QuantConnect/LEAN]</div>
-                </li>
-                <li class="foggy-glass demo">
-                    <a href="https://mdcworldmap.herokuapp.com/" target="_blank">MDC world map
-                        <div>
-                            <img class="demo-image" src="@/assets/mdcmap.png" alt="screenshot of world map web app" />
-                        </div>
-                    </a>
-                    <div>members of the MDC community can mark their location</div>
-                    <div>[Django, HTML, CSS, Bootstrap]</div>
-                </li>
-                <li class="foggy-glass demo">
-                    <a href="https://boringweather.netlify.app/" target="_blank">boring weather
-                        <div>
-                            <img class="demo-image" src="@/assets/boringweather.png" alt="screenshot of weather web app" />
-                        </div>
-                    </a>
-                    <div>enter zip codes and get the weather</div>
-                    <div>[HTML, CSS, jQuery, Bootstrap]</div>
-                </li>
-                <li class="foggy-glass demo">
-                    <a href="https://www.kaggle.com/ruthrootz/my-goodreads-reading-data" target="_blank">Goodreads data project
-                        <div>
-                            <img class="demo-image" src="@/assets/goodreadsdata.png" alt="screenshot of one of the charts" />
-                        </div>
-                    </a>
-                    <div>Jupyter notebook visualizing my Goodreads data</div>
-                    <div>[Python, Kaggle, Jupyter notebook]</div>
-                </li>
-            </ul>
-            <ul>
-                <li class="foggy-glass demo">
-                    <a href="https://betterwithbooks.transistor.fm/" target="_blank">Better With Books
-                        <div>
-                            <img class="demo-image" src="@/assets/books.jpg" alt="better with books podcast cover art" />
-                        </div>
-                    </a>
-                    <div>books + good ideas = Better With Books</div>
-                </li>
-                <li class="foggy-glass demo">
-                    <a href="https://wasawkwardpod.transistor.fm/" target="_blank">That Was Awkward
-                        <div>
-                            <img class="demo-image" src="@/assets/awkward.jpg" alt="that was awkward podcast cover art" />
-                        </div>
-                    </a>
-                    <div>two girls talking about psychology and socializing</div>
-                </li>
-            </ul>
+            <div class="projects">
+                <h1>my projects</h1>
+                <ul>
+                    <li class="foggy-glass demo">
+                        <a href="https://cubingtrainer.netlify.app/" target="_blank">cubing trainer
+                            <div>
+                                <img class="demo-image" src="@/assets/cubingtrainer.png" alt="screenshot of cubing timer web app" />
+                            </div>
+                        </a>
+                        <div>a speedcubing timer with chart and import/export</div>
+                        <div>[Vue, TypeScript, Bootstrap]</div>
+                    </li>
+                    <li class="foggy-glass demo">
+                        <a href="https://github.com/ruthrootz/quantconnect-trading-algorithm" target="_blank">trading algorithm
+                            <div>
+                                <img class="demo-image" src="@/assets/alg.png" alt="screenshot of trading algorithm results" />
+                            </div>
+                        </a>
+                        <div>a momentum based allocation algorithm built on QuantConnect</div>
+                        <div>[Python, QuantConnect/LEAN]</div>
+                    </li>
+                    <li class="foggy-glass demo">
+                        <a href="https://mdcworldmap.herokuapp.com/" target="_blank">MDC world map
+                            <div>
+                                <img class="demo-image" src="@/assets/mdcmap.png" alt="screenshot of world map web app" />
+                            </div>
+                        </a>
+                        <div>members of the MDC community can mark their location</div>
+                        <div>[Django, HTML, CSS, Bootstrap]</div>
+                    </li>
+                    <li class="foggy-glass demo">
+                        <a href="https://boringweather.netlify.app/" target="_blank">boring weather
+                            <div>
+                                <img class="demo-image" src="@/assets/boringweather.png" alt="screenshot of weather web app" />
+                            </div>
+                        </a>
+                        <div>enter zip codes and get the weather</div>
+                        <div>[HTML, CSS, jQuery, Bootstrap]</div>
+                    </li>
+                    <li class="foggy-glass demo">
+                        <a href="https://www.kaggle.com/ruthrootz/my-goodreads-reading-data" target="_blank">Goodreads data project
+                            <div>
+                                <img class="demo-image" src="@/assets/goodreadsdata.png" alt="screenshot of one of the charts" />
+                            </div>
+                        </a>
+                        <div>Jupyter notebook visualizing my Goodreads data</div>
+                        <div>[Python, Kaggle, Jupyter notebook]</div>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="foggy-glass demo">
+                        <a href="https://betterwithbooks.transistor.fm/" target="_blank">Better With Books
+                            <div>
+                                <img class="demo-image" src="@/assets/books.jpg" alt="better with books podcast cover art" />
+                            </div>
+                        </a>
+                        <div>books + good ideas = Better With Books</div>
+                    </li>
+                    <li class="foggy-glass demo">
+                        <a href="https://wasawkwardpod.transistor.fm/" target="_blank">That Was Awkward
+                            <div>
+                                <img class="demo-image" src="@/assets/awkward.jpg" alt="that was awkward podcast cover art" />
+                            </div>
+                        </a>
+                        <div>two girls talking about psychology and socializing</div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </template>

@@ -84,6 +84,13 @@ p {
   flex-wrap: wrap;
 }
 
+.projects {
+      flex-basis: 0;
+        flex-grow: 999;
+          min-width: 40%;
+          
+}
+
 .center {
     width: 75%;
     margin: 0px auto;
