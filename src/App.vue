@@ -125,7 +125,11 @@ p {
 .stack {
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
-    padding: 2%;
+    padding: 1%;
+}
+
+.stack > h1 {
+    margin: 1%;
 }
 
 .blog {
