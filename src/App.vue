@@ -78,6 +78,15 @@ p {
     align-self: start;
     position: sticky;
     top: var(--offset);
+    font-size: 0.75rem;
+}
+
+.sidebar > ul {
+    margin: 3%;
+}
+
+.sidebar > h2 {
+    margin: 1%;
 }
 
 .sidebar > ul > li {
