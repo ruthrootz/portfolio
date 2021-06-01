@@ -188,12 +188,4 @@ p {
 
 }
 
-@media only screen and (max-width: 1300px) {
-
-    .stack-text {
-        display: none;
-    }
-
-}
-
 </style>
