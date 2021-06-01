@@ -49,7 +49,7 @@
             </ul>
         </div>
         <div class="section main">
-            <div class="sidebar foggy-glass">
+            <div class="sidebar">
                 <h1>my projects</h1>
                 <h2>websites</h2>
                 <ul>

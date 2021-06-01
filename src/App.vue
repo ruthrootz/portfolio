@@ -177,10 +177,6 @@ p {
         width: 90%;
     }
 
-    .stack-text {
-        display: none;
-    }
-
     .blog, .article {
         width: 90%;
         border-radius: 0%;
@@ -188,6 +184,14 @@ p {
 
     .section {
         font-size: 0.75rem;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .stack-text {
+        display: none;
     }
 
 }
