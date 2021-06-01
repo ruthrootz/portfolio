@@ -52,29 +52,35 @@
             <div class="sidebar foggy-glass">
                 <h1>my projects</h1>
                 <h2>websites</h2>
-                <li style="display: block">
-                    <a href="#cubing">cubing trainer</a>
-                </li>
-                <li style="display: block">
-                    <a href="#mdc">MDC world map</a>
-                </li>
-                <li style="display: block">
-                    <a href="#weather">boring weather</a>
-                </li>
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#cubing">cubing trainer</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#mdc">MDC world map</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#weather">boring weather</a>
+                    </li>
+                </ul>
                 <h2>other code</h2>
-                <li style="display: block">
-                    <a href="#quant">trading algorithm</a>
-                </li>
-                <li style="display: block">
-                    <a href="#goodreads">Goodreads data project</a>
-                </li>
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#quant">trading algorithm</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#goodreads">Goodreads data project</a>
+                    </li>
+                </ul>
                 <h2>podcasts</h2>
-                <li style="display: block">
-                    <a href="#bwb">Better With Books</a>
-                </li>
-                <li style="display: block">
-                    <a href="#awkward">That Was Awkward</a>
-                </li>
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#bwb">Better With Books</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#awkward">That Was Awkward</a>
+                    </li>
+                </ul>
             </div>
             <div class="projects">
                 <ul>

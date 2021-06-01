@@ -79,6 +79,16 @@ p {
     top: var(--offset);
 }
 
+.sidebar > ul > li {
+    padding-bottom: 5%;
+    display: block;
+}
+
+.nav-link {
+    font-size: 0.99rem;
+    padding: 5%;
+}
+
 .main {
     display: flex;
     flex-wrap: wrap;
