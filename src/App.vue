@@ -203,4 +203,13 @@ p {
 
 }
 
+@media only screen and (max-width: 490px) {
+
+    .sidebar {
+        position: relative;
+        font-size: 0.75rem;
+    }
+
+}
+
 </style>
