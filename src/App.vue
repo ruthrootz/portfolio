@@ -125,7 +125,8 @@ p {
 .stack {
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
-    padding: 1%;
+    margin-bottom: 0% !important;
+    padding: 0.5%;
 }
 
 .stack > h1 {
