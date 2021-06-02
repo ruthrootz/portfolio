@@ -71,13 +71,18 @@ p {
     color: rgb(19, 19, 133);
 }
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .sidebar {
-    --offset: var(--space);
     flex-grow: 1;
     flex-basis: 300px;
     align-self: start;
     position: sticky;
-    top: var(--offset);
+    position: -webkit-sticky;
+    top: 0;
     font-size: 0.75rem;
 }
 
@@ -97,11 +102,6 @@ p {
 .nav-link {
     font-size: 0.99rem;
     padding: 5%;
-}
-
-.main {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .projects {

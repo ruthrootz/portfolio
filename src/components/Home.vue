@@ -41,7 +41,7 @@
                 </li>
             </ul>
         </div>
-        <div class="section main">
+        <div class="section wrapper">
             <div class="sidebar">
                 <h1>my projects</h1>
                 <h2>websites</h2>
