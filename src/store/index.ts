@@ -6,6 +6,15 @@ Vue.use(Vuex);
 export default new Vuex.Store({
     state: {
         articles: [
+//             {
+//                 id: "15",
+//                 title: "Revelation Space (The Inhibitor Trilogy #1) - spoiler-free book review",
+//                 publishDate: "06/09/2021",
+//                 previewText: '<p><a href="https://www.goodreads.com/book/show/49015373-revelation-space" target="_blank">Revelation Space (2000, Alastair Reynolds)</a></p>',
+//                 text: '<p><a href="https://www.goodreads.com/book/show/49015373-revelation-space" target="_blank">Revelation Space (2000, Alastair Reynolds)</a></p>',
+//                 text: '<p>The plot was like a jigsaw puzzle... with pieces missing. It took a long time to figure out the plot and how each person and idea and historical tidbit fit into place. I got annoyed at the rough dialogue and how sometimes characters would learn something groundbreaking but the reader wouldn't find out until way later. It got hard to keep track of what puzzle pieces I was still missing and if I was remembering something verifiably true or some lie one character told another.</p><p>BUT. The ideas in this books are freaking AWESOME. Reynolds has an increible imagination. And as someone who's currently reading the second book in the series, I have to say that I don't mind the convoluted nature of the first book now that this second book has a clear plot line. Going through the confusion of the first book feels like it's paying off, like a challenge that I had to go through in order to reap the rewards of an even more exciting and well-written second book.</p><p>score on its own: 3/5 (6/10)</p><p>score if you also read the second book: 4/5 (8/10)</p>'
+//                 tags: ["review", "reading", "books"],
+//             },
             {
                 id: "14",
                 title: "Project Hail Mary - spoiler-free book review",
