@@ -114,7 +114,7 @@
                         <div>[Python, QuantConnect/LEAN]</div>
                     </li>
                     <li class="foggy-glass demo">
-                        <a id="goodreads" href="https://www.kaggle.com/ruthrootz/my-goodreads-reading-data" target="_blank">Goodreads data projects
+                        <a id="goodreads" href="https://www.kaggle.com/ruthrootz/goodreads-data-778-books/code" target="_blank">Goodreads data projects
                             <div>
                                 <img class="demo-image" src="@/assets/goodreadsdata.png" alt="screenshot of one of the charts" />
                             </div>
