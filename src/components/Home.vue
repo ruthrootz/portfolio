@@ -111,6 +111,15 @@
                         <div>[HTML, CSS, jQuery, Bootstrap]</div>
                     </li>
                     <li class="foggy-glass demo">
+                        <a id="puppy" href="" target="_blank">puppy gallery
+                            <div>
+                                <img class="demo-image" src="@/assets/puppygallery.png" alt="screenshot of puppy photos mobile app" />
+                            </div>
+                        </a>
+                        <div>an app that displays random adorable puppy pictures</div>
+                        <div>[Flutter, <a href="https://placedog.net/" target="_blank">placedog.net</a>]</div>
+                    </li>
+                    <li class="foggy-glass demo">
                         <a id="quant" href="https://github.com/ruthrootz/quantconnect-trading-algorithm" target="_blank">trading algorithm
                             <div>
                                 <img class="demo-image" src="@/assets/alg.png" alt="screenshot of trading algorithm results" />
