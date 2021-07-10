@@ -166,10 +166,6 @@ p {
     margin: 1% auto;
 }
 
-.demo > div > a {
-    font-size: 0.99rem;
-}
-
 .demo-image {
     width: 90%;
     border-radius: 3%;
