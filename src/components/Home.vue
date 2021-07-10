@@ -56,6 +56,12 @@
                         <a class="nav-link" href="#weather">boring weather</a>
                     </li>
                 </ul>
+                <h2>mobile apps</h2>
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#puppy">puppy gallery</a>
+                    </li>
+                </ul>
                 <h2>other code</h2>
                 <ul>
                     <li>
