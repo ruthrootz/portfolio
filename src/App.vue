@@ -100,13 +100,13 @@ p {
 }
 
 .nav-link {
-    font-size: 0.99rem;
     padding: 5%;
 }
 
 .projects {
     flex-basis: 0;
     flex-grow: 999;
+    font-size: 1.5rem;
 }
 
 .center {
@@ -164,6 +164,10 @@ p {
     margin: 0px auto;
     display: block;
     margin: 1% auto;
+}
+
+.demo > div > a {
+    font-size: 0.99rem;
 }
 
 .demo-image {

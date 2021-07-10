@@ -111,7 +111,7 @@
                         <div>[HTML, CSS, jQuery, Bootstrap]</div>
                     </li>
                     <li class="foggy-glass demo">
-                        <a id="puppy" href="" target="_blank">puppy gallery
+                        <a id="puppy">puppy gallery
                             <div>
                                 <img class="demo-image" src="@/assets/puppygallery.png" alt="screenshot of puppy photos mobile app" />
                             </div>
