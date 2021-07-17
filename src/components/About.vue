@@ -2,6 +2,9 @@
     <div class="center">
         <h1>about</h1>
         <div class="about">
+            <div>
+                <a href="mailto:rutholdja@icloud.com">email me</a>
+            </div>
             <p>
                 book person. code person. always learning person.
             </p>
