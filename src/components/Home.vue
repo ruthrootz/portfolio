@@ -42,7 +42,8 @@
             </ul>
         </div>
         <div class="section wrapper">
-            <div class="sidebar">
+            <b-button v-b-toggle.sidebar variant="link">-</b-button>
+            <b-collapse id="sidebar" class="hidden-s sidebar" :visible="!isMobile">
                 <h1>my projects</h1>
                 <h2>websites</h2>
                 <ul>
@@ -80,7 +81,7 @@
                         <a class="nav-link" href="#awkward">That Was Awkward</a>
                     </li>
                 </ul>
-            </div>
+            </b-collapse>
             <div class="projects">
                 <ul>
                     <li class="foggy-glass demo">

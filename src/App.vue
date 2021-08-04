@@ -12,7 +12,7 @@
 
 <style>
 
-html {
+body {
     background-color:#23bbf7;
     background-image: linear-gradient(#23bbf7, #ff6f00);
     background:-webkit-linear-gradient(top, #23bbf7, #ff6f00);
