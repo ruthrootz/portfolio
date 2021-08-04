@@ -42,9 +42,10 @@
             </ul>
         </div>
         <div class="section sidebar wrapper">
+            <div>
             <font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" class="nav-toggle-button" />
+            <h1>my projects</h1>
             <b-collapse id="sidebar" class="sidebar" :visible="!isMobile">
-                <h1>my projects</h1>
                 <h2>websites</h2>
                 <ul>
                     <li>
@@ -82,6 +83,7 @@
                     </li>
                 </ul>
             </b-collapse>
+            </div>
             <div class="projects">
                 <ul>
                     <li class="foggy-glass demo">
