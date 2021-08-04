@@ -1,4 +1,8 @@
 import { Component, Vue } from 'vue-property-decorator';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faBars)
 
 @Component
 export default class Home extends Vue {
