@@ -42,7 +42,7 @@
             </ul>
         </div>
         <div class="section wrapper">
-            <b-button v-b-toggle.sidebar variant="link">-</b-button>
+            <b-button v-b-toggle.sidebar variant="link" class="nav-toggle-button"><i class="fas fa-bars"></i></b-button>
             <b-collapse id="sidebar" class="sidebar" :visible="!isMobile">
                 <h1>my projects</h1>
                 <h2>websites</h2>
