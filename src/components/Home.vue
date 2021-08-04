@@ -43,8 +43,8 @@
         </div>
         <div class="section sidebar wrapper">
             <div>
-            <font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" class="nav-toggle-button" />
-            <h1>my projects</h1>
+                <span><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" class="nav-toggle-button" /></span>
+                <span><h1>my projects</h1></span>
             <b-collapse id="sidebar" class="sidebar" :visible="!isMobile">
                 <h2>websites</h2>
                 <ul>

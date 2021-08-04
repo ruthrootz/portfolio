@@ -76,6 +76,11 @@ p {
     flex-wrap: wrap;
 }
 
+.nav-toggle-button {
+    float: left;
+    margin: 0;
+}
+
 .sidebar {
     flex-grow: 1;
     flex-basis: 300px;
