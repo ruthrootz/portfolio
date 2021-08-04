@@ -37,7 +37,7 @@ li {
 }
 
 a {
-    color: #2c3e50;
+    color: #2c3e50 !important;
     font-weight: bold;
     font-size: 1.5rem;
 }
