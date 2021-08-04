@@ -1,7 +1,6 @@
 <template>
     <div>
         <div class="section"><h2>Hi! I'm Ruth, a full-stack web dev.</h2></div>
-        <font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" class="nav-toggle-button" />
         <div class="section stack">
             <h1>my stack</h1>
             <ul >
@@ -42,7 +41,8 @@
                 </li>
             </ul>
         </div>
-        <div class="section wrapper">
+        <div class="section sidebar wrapper">
+            <font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" class="nav-toggle-button" />
             <b-collapse id="sidebar" class="sidebar" :visible="!isMobile">
                 <h1>my projects</h1>
                 <h2>websites</h2>
