@@ -79,6 +79,12 @@ p {
 .nav-toggle-button {
     float: left;
     margin: 0;
+    display: inline;
+}
+
+.nav-header {
+    float: relative;
+    display: inline;
 }
 
 .sidebar {
