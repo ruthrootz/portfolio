@@ -81,7 +81,7 @@ p {
     float: left;
     margin: 5%;;
     display: inline;
-    font-size: 5rem;
+    font-size: 1.5rem;
 }
 
 .nav-header {
@@ -174,7 +174,6 @@ p {
 
 .demo {
     width: 90%;
-    margin: 0px auto;
     display: block;
     margin: 1% auto;
 }
