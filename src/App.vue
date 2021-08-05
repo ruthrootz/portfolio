@@ -93,15 +93,15 @@ p {
 }
 
 #sidebar {
-    background-color:#23bbf7 !important;
+    background-color:#23bbf796 !important;
     backdrop-filter: blur(5px);
+    padding-top: 33px;
 }
 
 .nav-section-header {
     font-size: 1.25rem;
     text-align: left;
     padding-left: 5%;
-    color: #000000;
 }
 
 .nav-link {
