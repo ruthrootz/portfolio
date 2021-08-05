@@ -3,7 +3,7 @@
         <div class="sidebar-wrapper">
             <b-sidebar id="sidebar" shadow no-enforce-focus no-header>
                 <b-nav vertical class="mx-auto">
-                    <h2 class="nav-section-header">websites<span id="nav-close-button"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></span></h2>
+                    <h2 class="nav-section-header">websites<span id="nav-close-button"><font-awesome-icon icon="times" v-b-toggle.sidebar variant="link" /></span></h2>
                     <b-nav-item class="nav-link" href="#cubing">cubing trainer</b-nav-item>
                     <b-nav-item class="nav-link" href="#mdc">MDC world map</b-nav-item>
                     <b-nav-item class="nav-link" href="#weather">boring weather</b-nav-item>

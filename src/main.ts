@@ -4,12 +4,12 @@ import router from "./router";
 import store from "./store";
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBars, faAngleUp } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faAngleUp, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { BootstrapVue } from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 
-library.add(faBars, faAngleUp);
+library.add(faBars, faAngleUp, faTimes);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
