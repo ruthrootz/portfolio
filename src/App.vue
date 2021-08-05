@@ -156,6 +156,7 @@ p {
 .demo {
     display: block;
     margin: 1% auto;
+    font-size: 0.95rem;
 }
 
 .demo-image {
