@@ -29,7 +29,7 @@ footer {
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0 !important;
 }
 
 li {
@@ -72,11 +72,6 @@ p {
     color: rgb(19, 19, 133);
 }
 
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .nav-toggle-button {
     float: left;
     margin: 5%;;
@@ -89,18 +84,14 @@ p {
     display: inline;
 }
 
-.sidebar {
+.b-sidebar-body {
     /* flex-grow: 1;
     flex-basis: 300px;
     align-self: start;
     position: sticky;
     position: -webkit-sticky;
     top: 0; */
-    font-size: 0.50rem;
-}
-
-.sidebar > ul {
-    margin: 3%;
+    font-size: 0.25rem !important;
 }
 
 .sidebar > h2 {
@@ -120,6 +111,8 @@ p {
     flex-basis: 0;
     flex-grow: 999;
     font-size: 1.5rem;
+    width: 50%;
+    margin: 0px auto;
 }
 
 .center {
@@ -140,10 +133,6 @@ p {
     backdrop-filter: blur(5px);
     margin-bottom: 0% !important;
     padding: 0.5%;
-}
-
-.stack > h1 {
-    margin: 1%;
 }
 
 .blog {
@@ -173,7 +162,6 @@ p {
 }
 
 .demo {
-    width: 90%;
     display: block;
     margin: 1% auto;
 }
@@ -190,15 +178,16 @@ p {
     padding: 13px;
 }
 
-.r-icon {
-    margin: 1%;
-}
-
 .li-icon {
     width: 6%;
 }
 
 @media only screen and (max-width: 800px) {
+
+    .projects {
+        width: 90%;
+        margin: 0px auto;
+    }
 
     .demo {
         width: 90%;
@@ -210,15 +199,6 @@ p {
     }
 
     .section {
-        font-size: 0.75rem;
-    }
-
-}
-
-@media only screen and (max-width: 490px) {
-
-    .sidebar {
-        position: relative;
         font-size: 0.75rem;
     }
 

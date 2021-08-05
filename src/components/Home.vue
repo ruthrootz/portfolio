@@ -18,7 +18,7 @@
         </b-sidebar>
         <div class="section"><h2>Hi! I'm Ruth, a full-stack web dev.</h2></div>
         <div class="section stack">
-            <h1>my stack</h1>
+            <h2>my stack</h2>
             <ul >
                 <li class="li-icon">
                     <svg viewBox="0 0 128 128">
