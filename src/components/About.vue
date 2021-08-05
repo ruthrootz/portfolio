@@ -1,6 +1,6 @@
 <template>
     <div class="center">
-        <h1>about</h1>
+        <h1 class="section-header">about</h1>
         <div class="about">
             <div>
                 <a href="mailto:rutholdja@icloud.com">email me</a>

@@ -195,6 +195,10 @@ li > .nav-link {
     margin-bottom: 5%;
 }
 
+.section-header {
+    
+}
+
 .demo {
     display: block;
     margin: 1% auto;

@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="section"><h2>Hi! I'm Ruth, a full-stack web dev.</h2></div>
+        <div class="section"><h1 class="section-header">Hi! I'm Ruth, a full-stack web dev.</h1></div>
         <div class="section stack">
-            <h2>my stack</h2>
+            <h1 class="section-header">my stack</h1>
             <ul >
                 <li class="li-icon">
                     <svg viewBox="0 0 128 128">
