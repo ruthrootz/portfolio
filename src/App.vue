@@ -1,13 +1,13 @@
 <template>
     <div id="app">
-        <font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" class="nav-toggle-button" />
+        <div id="nav-toggle-button"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></div>
         <div id="nav">
             <router-link to="/">home</router-link> |
             <router-link to="/blog">blog</router-link> |
             <router-link to="/about">about</router-link>
         </div>
         <router-view />
-        <div id="scroll-to-top" @click="$scrollToTop()"><font-awesome-icon icon="angle-up" variant="link" class="nav-toggle-button" /></div>
+        <div id="scroll-to-top" @click="$scrollToTop()"><font-awesome-icon icon="angle-up" variant="link" /></div>
         <footer>&copy; copyright 2021 Ruth R. Oldja</footer>
     </div>
 </template>
@@ -61,12 +61,13 @@ p {
 }
 
 #scroll-to-top {
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  z-index: 99;
-  cursor: pointer;
-  padding: 1%;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 1%;
+    font-size: 2rem;
 }
 
 #nav {
@@ -82,11 +83,14 @@ p {
     color: rgb(19, 19, 133);
 }
 
-.nav-toggle-button {
-    float: left;
-    margin: 5%;;
-    display: inline;
-    font-size: 1.5rem;
+#nav-toggle-button {
+    position: fixed;
+    top: 24px;
+    left: 15px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 1%;
+    font-size: 1.35rem;
 }
 
 .b-nav > h2 {
@@ -176,6 +180,17 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
+
+    #scroll-to-top {
+        bottom: 1px;
+        right: 5px;
+        font-size: 1.35rem;
+    }
+
+    #nav-toggle-button {
+        top: 35px;
+        font-size: 1rem;
+    }
 
     .projects {
         width: 90%;
