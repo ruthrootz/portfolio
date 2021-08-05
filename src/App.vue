@@ -88,12 +88,12 @@ p {
 }
 
 .sidebar {
-    flex-grow: 1;
+    /* flex-grow: 1;
     flex-basis: 300px;
     align-self: start;
     position: sticky;
     position: -webkit-sticky;
-    top: 0;
+    top: 0; */
     font-size: 0.75rem;
 }
 
