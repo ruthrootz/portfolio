@@ -2,22 +2,20 @@
     <div>
         <div class="sidebar-wrapper">
             <b-sidebar id="sidebar" shadow no-enforce-focus no-header>
-                <!-- <template #default="{ hide }"> -->
-                    <b-nav vertical class="mx-auto">
-                        <h2 class="nav-section-header">websites<span id="nav-close-button"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></span></h2>
-                        <b-nav-item class="nav-link" href="#cubing">cubing trainer</b-nav-item>
-                        <b-nav-item class="nav-link" href="#mdc">MDC world map</b-nav-item>
-                        <b-nav-item class="nav-link" href="#weather">boring weather</b-nav-item>
-                        <h2 class="nav-section-header">mobile apps</h2>
-                        <b-nav-item class="nav-link" href="#puppy">puppy gallery</b-nav-item>
-                        <h2 class="nav-section-header">other code</h2>
-                        <b-nav-item class="nav-link" href="#quant">trading algorithm</b-nav-item>
-                        <b-nav-item class="nav-link" href="#goodreads">Goodreads data project</b-nav-item>
-                        <h2 class="nav-section-header">podcasts</h2>
-                        <b-nav-item class="nav-link" href="#bwb">Better With Books</b-nav-item>
-                        <b-nav-item class="nav-link" href="#awkward">That Was Awkward</b-nav-item>
-                    </b-nav>
-                <!-- </template> -->
+                <b-nav vertical class="mx-auto">
+                    <h2 class="nav-section-header">websites<span id="nav-close-button"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></span></h2>
+                    <b-nav-item class="nav-link" href="#cubing">cubing trainer</b-nav-item>
+                    <b-nav-item class="nav-link" href="#mdc">MDC world map</b-nav-item>
+                    <b-nav-item class="nav-link" href="#weather">boring weather</b-nav-item>
+                    <h2 class="nav-section-header">mobile apps</h2>
+                    <b-nav-item class="nav-link" href="#puppy">puppy gallery</b-nav-item>
+                    <h2 class="nav-section-header">other code</h2>
+                    <b-nav-item class="nav-link" href="#quant">trading algorithm</b-nav-item>
+                    <b-nav-item class="nav-link" href="#goodreads">Goodreads data project</b-nav-item>
+                    <h2 class="nav-section-header">podcasts</h2>
+                    <b-nav-item class="nav-link" href="#bwb">Better With Books</b-nav-item>
+                    <b-nav-item class="nav-link" href="#awkward">That Was Awkward</b-nav-item>
+                </b-nav>
             </b-sidebar>
         </div>
         <div class="section"><h2>Hi! I'm Ruth, a full-stack web dev.</h2></div>
