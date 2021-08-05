@@ -106,7 +106,7 @@ p {
     background:-moz-linear-gradient(top, #23bbf7, #ff6f00);
     background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #23bbf7), color-stop(100%, #ff6f00));
     backdrop-filter: blur(5px);
-    padding-top: 33px;
+    padding-top: 30px;
 }
 
 .nav-section-header {
