@@ -78,8 +78,9 @@ p {
 
 .nav-toggle-button {
     float: left;
-    margin: 0;
+    margin: 5%;;
     display: inline;
+    font-size: 5rem;
 }
 
 .nav-header {
@@ -94,7 +95,7 @@ p {
     position: sticky;
     position: -webkit-sticky;
     top: 0; */
-    font-size: 0.75rem;
+    font-size: 0.50rem;
 }
 
 .sidebar > ul {
