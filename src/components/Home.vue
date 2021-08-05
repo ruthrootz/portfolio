@@ -15,44 +15,7 @@
                 <b-nav-item class="nav-link" href="#bwb">Better With Books</b-nav-item>
                 <b-nav-item class="nav-link" href="#awkward">That Was Awkward</b-nav-item>
             </b-nav>
-            <!-- <h2>websites</h2>
-            <ul>
-                <li>
-                    <a class="nav-link" href="#cubing">cubing trainer</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#mdc">MDC world map</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#weather">boring weather</a>
-                </li>
-            </ul>
-            <h2>mobile apps</h2>
-            <ul>
-                <li>
-                    <a class="nav-link" href="#puppy">puppy gallery</a>
-                </li>
-            </ul>
-            <h2>other code</h2>
-            <ul>
-                <li>
-                    <a class="nav-link" href="#quant">trading algorithm</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#goodreads">Goodreads data project</a>
-                </li>
-            </ul>
-            <h2>podcasts</h2>
-            <ul>
-                <li>
-                    <a class="nav-link" href="#bwb">Better With Books</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#awkward">That Was Awkward</a>
-                </li>
-            </ul> -->
         </b-sidebar>
-        <font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" class="nav-toggle-button" />
         <div class="section"><h2>Hi! I'm Ruth, a full-stack web dev.</h2></div>
         <div class="section stack">
             <h1>my stack</h1>

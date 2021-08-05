@@ -1,5 +1,6 @@
 <template>
     <div id="app">
+        <font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" class="nav-toggle-button" />
         <div id="nav">
             <router-link to="/">home</router-link> |
             <router-link to="/blog">blog</router-link> |
