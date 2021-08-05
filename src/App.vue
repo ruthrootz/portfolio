@@ -196,7 +196,12 @@ li > .nav-link {
 }
 
 .section-header {
-    
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+
+.stack-header {
+    font-size: 1.5rem;
 }
 
 .demo {

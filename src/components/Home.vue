@@ -2,7 +2,7 @@
     <div>
         <div class="section"><h1 class="section-header">Hi! I'm Ruth, a full-stack web dev.</h1></div>
         <div class="section stack">
-            <h1 class="section-header">my stack</h1>
+            <h2 class="stack-header">my stack</h2>
             <ul >
                 <li class="li-icon">
                     <svg viewBox="0 0 128 128">
