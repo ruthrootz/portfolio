@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-sidebar id="sidebar" class="sidebar" shadow>
+        <b-sidebar id="sidebar" class="sidebar" shadow no-enforce-focus>
             <b-nav vertical class="mx-auto">
                 <h2>websites</h2>
                 <b-nav-item class="nav-link" href="#cubing">cubing trainer</b-nav-item>
