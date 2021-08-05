@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <div id="nav-open-button"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></div>
+        <div id="nav-open-button" v-if="$route.name == 'home'"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></div>
         <div id="nav">
             <router-link to="/">home</router-link> |
             <router-link to="/blog">blog</router-link> |
