@@ -7,6 +7,7 @@
             <router-link to="/about">about</router-link>
         </div>
         <router-view />
+        <div id="scroll-to-top" @click="$scrollToTop()"><font-awesome-icon icon="angle-up" variant="link" class="nav-toggle-button" /></div>
         <footer>&copy; copyright 2021 Ruth R. Oldja</footer>
     </div>
 </template>
@@ -59,6 +60,15 @@ p {
     color: #2c3e50;
 }
 
+#scroll-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  cursor: pointer;
+  padding: 1%;
+}
+
 #nav {
     padding: 30px;
 }
@@ -79,32 +89,14 @@ p {
     font-size: 1.5rem;
 }
 
-.nav-header {
-    float: relative;
-    display: inline;
-}
-
-.b-sidebar-body {
-    /* flex-grow: 1;
-    flex-basis: 300px;
-    align-self: start;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0; */
-    font-size: 0.25rem !important;
-}
-
-.sidebar > h2 {
+.b-nav > h2 {
     margin: 1%;
-}
-
-.sidebar > ul > li {
-    padding-bottom: 5%;
-    display: block;
+    font-size: 0.25rem !important;
 }
 
 .nav-link {
     padding: 5%;
+    font-size: 0.95rem;
 }
 
 .projects {
