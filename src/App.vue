@@ -131,6 +131,10 @@ p {
     margin-bottom: 5%;
 }
 
+.nav-section-header {
+    color: #2c3e50;
+}
+
 .nav-section-header, .route-link {
     font-size: 1.25rem;
     text-align: left;
