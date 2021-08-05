@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <div id="nav-toggle-button"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></div>
+        <div id="nav-open-button"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></div>
         <div id="nav">
             <router-link to="/">home</router-link> |
             <router-link to="/blog">blog</router-link> |
@@ -82,7 +82,7 @@ p {
     color: rgb(19, 19, 133);
 }
 
-#nav-toggle-button {
+#nav-open-button {
     position: fixed;
     top: 20px;
     left: 15px;
@@ -92,8 +92,19 @@ p {
     font-size: 1.35rem;
 }
 
+#nav-close-button {
+    float: right;
+    padding-right: 5%;
+    font-size: 1.35rem;
+    color: #2c3e50;
+}
+
 #sidebar {
-    background-color:#23bbf796 !important;
+    background-color:#23bbf7;
+    background-image: linear-gradient(#23bbf7, #ff6f00);
+    background:-webkit-linear-gradient(top, #23bbf7, #ff6f00);
+    background:-moz-linear-gradient(top, #23bbf7, #ff6f00);
+    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #23bbf7), color-stop(100%, #ff6f00));
     backdrop-filter: blur(5px);
     padding-top: 33px;
 }
@@ -102,6 +113,7 @@ p {
     font-size: 1.25rem;
     text-align: left;
     padding-left: 5%;
+    height: 30px !important;
 }
 
 .nav-link {
