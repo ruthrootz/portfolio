@@ -143,6 +143,10 @@ p {
     font-size: 0.95rem;
 }
 
+.nav-link > a {
+    text-decoration: underline;
+}
+
 li > .nav-link {
     height: 45px;
     text-align: left;
