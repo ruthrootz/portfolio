@@ -207,9 +207,8 @@ li > .nav-link {
         font-size: 1.35rem;
     }
 
-    #nav-toggle-button {
-        top: 35px;
-        font-size: 1rem;
+    #nav-open-button {
+        top: 30px;
     }
 
     .projects {
