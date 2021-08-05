@@ -85,7 +85,7 @@ p {
 
 #nav-toggle-button {
     position: fixed;
-    top: 24px;
+    top: 20px;
     left: 15px;
     z-index: 99;
     cursor: pointer;
