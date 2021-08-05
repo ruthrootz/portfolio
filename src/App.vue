@@ -76,7 +76,6 @@ p {
 
 #nav a {
     font-weight: bold;
-    color: #2c3e50;
 }
 
 #nav a.router-link-exact-active {
@@ -93,14 +92,27 @@ p {
     font-size: 1.35rem;
 }
 
-.b-nav > h2 {
-    margin: 1%;
-    font-size: 0.25rem !important;
+#sidebar {
+    background-color:#23bbf7 !important;
+    backdrop-filter: blur(5px);
+}
+
+.nav-section-header {
+    font-size: 1.25rem;
+    text-align: left;
+    padding-left: 5%;
+    color: #000000;
 }
 
 .nav-link {
-    padding: 5%;
+    padding: 1% !important;
     font-size: 0.95rem;
+}
+
+li > .nav-link {
+    height: 45px;
+    text-align: left;
+    padding-left: 15% !important;
 }
 
 .projects {
@@ -114,14 +126,6 @@ p {
 .center {
     width: 75%;
     margin: 0px auto;
-}
-
-.foggy-glass {
-    background-color: rgba(255, 255, 255, .15);
-    backdrop-filter: blur(5px);
-    border-radius: 2%;
-    padding: 2%;
-    margin: 3%;
 }
 
 .stack {
@@ -160,7 +164,11 @@ p {
 .demo {
     display: block;
     margin: 1% auto;
+    padding: 2%;
     font-size: 0.95rem;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 2%;
 }
 
 .demo-image {

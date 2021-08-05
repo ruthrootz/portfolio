@@ -1,17 +1,17 @@
 <template>
     <div>
-        <b-sidebar id="sidebar" class="sidebar" shadow no-enforce-focus>
+        <b-sidebar id="sidebar" shadow no-enforce-focus>
             <b-nav vertical class="mx-auto">
-                <h2>websites</h2>
+                <h2 class="nav-section-header">websites</h2>
                 <b-nav-item class="nav-link" href="#cubing">cubing trainer</b-nav-item>
                 <b-nav-item class="nav-link" href="#mdc">MDC world map</b-nav-item>
                 <b-nav-item class="nav-link" href="#weather">boring weather</b-nav-item>
-                <h2>mobile apps</h2>
+                <h2 class="nav-section-header">mobile apps</h2>
                 <b-nav-item class="nav-link" href="#puppy">puppy gallery</b-nav-item>
-                <h2>other code</h2>
+                <h2 class="nav-section-header">other code</h2>
                 <b-nav-item class="nav-link" href="#quant">trading algorithm</b-nav-item>
                 <b-nav-item class="nav-link" href="#goodreads">Goodreads data project</b-nav-item>
-                <h2>podcasts</h2>
+                <h2 class="nav-section-header">podcasts</h2>
                 <b-nav-item class="nav-link" href="#bwb">Better With Books</b-nav-item>
                 <b-nav-item class="nav-link" href="#awkward">That Was Awkward</b-nav-item>
             </b-nav>
@@ -60,7 +60,7 @@
         <div class="section">
             <div class="projects">
                 <ul>
-                    <li class="foggy-glass demo">
+                    <li class="demo">
                         <a id="cubing" href="https://cubingtrainer.netlify.app/" target="_blank">cubing trainer
                             <div>
                                 <img class="demo-image" src="@/assets/cubingtrainer.png" alt="screenshot of cubing timer web app" />
@@ -69,7 +69,7 @@
                         <div>a speedcubing timer with chart and import/export</div>
                         <div>[Vue, TypeScript, Bootstrap]</div>
                     </li>
-                    <li class="foggy-glass demo">
+                    <li class="demo">
                         <a id="mdc" href="https://mdcworldmap.herokuapp.com/" target="_blank">MDC world map
                             <div>
                                 <img class="demo-image" src="@/assets/mdcmap.png" alt="screenshot of world map web app" />
@@ -78,7 +78,7 @@
                         <div>members of the MDC community can mark their location</div>
                         <div>[Django, HTML, CSS, Bootstrap]</div>
                     </li>
-                    <li class="foggy-glass demo">
+                    <li class="demo">
                         <a id="weather" href="https://boringweather.netlify.app/" target="_blank">boring weather
                             <div>
                                 <img class="demo-image" src="@/assets/boringweather.png" alt="screenshot of weather web app" />
@@ -87,7 +87,7 @@
                         <div>enter zip codes and get the weather</div>
                         <div>[HTML, CSS, jQuery, Bootstrap]</div>
                     </li>
-                    <li class="foggy-glass demo">
+                    <li class="demo">
                         <a id="puppy">puppy gallery
                             <div>
                                 <img class="demo-image" src="@/assets/puppygallery.png" alt="screenshot of puppy photos mobile app" />
@@ -96,7 +96,7 @@
                         <div>an app that displays random adorable puppy pictures</div>
                         <div>[Flutter, <a href="https://placedog.net/" target="_blank">placedog.net</a>]</div>
                     </li>
-                    <li class="foggy-glass demo">
+                    <li class="demo">
                         <a id="quant" href="https://github.com/ruthrootz/quantconnect-trading-algorithm" target="_blank">trading algorithm
                             <div>
                                 <img class="demo-image" src="@/assets/alg.png" alt="screenshot of trading algorithm results" />
@@ -105,7 +105,7 @@
                         <div>a momentum based allocation algorithm built on QuantConnect</div>
                         <div>[Python, QuantConnect/LEAN]</div>
                     </li>
-                    <li class="foggy-glass demo">
+                    <li class="demo">
                         <a id="goodreads" href="https://www.kaggle.com/ruthrootz/goodreads-data-778-books/code" target="_blank">Goodreads data projects
                             <div>
                                 <img class="demo-image" src="@/assets/goodreadsdata.png" alt="screenshot of one of the charts" />
@@ -116,7 +116,7 @@
                     </li>
                 </ul>
                 <ul>
-                    <li class="foggy-glass demo">
+                    <li class="demo">
                         <a id="bwb" href="https://betterwithbooks.transistor.fm/" target="_blank">Better With Books
                             <div>
                                 <img class="demo-image" src="@/assets/books.jpg" alt="better with books podcast cover art" />
@@ -124,7 +124,7 @@
                         </a>
                         <div>books + good ideas = Better With Books</div>
                     </li>
-                    <li class="foggy-glass demo">
+                    <li class="demo">
                         <a id="awkward" href="https://wasawkwardpod.transistor.fm/" target="_blank">That Was Awkward
                             <div>
                                 <img class="demo-image" src="@/assets/awkward.jpg" alt="that was awkward podcast cover art" />
