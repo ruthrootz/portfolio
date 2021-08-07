@@ -6,6 +6,14 @@ Vue.use(Vuex);
 export default new Vuex.Store({
     state: {
         articles: [
+                        {
+                id: "17",
+                title: "Absolution Gap (The Inhibitor Trilogy #3) - spoiler book review",
+                publishDate: "07/08/2021",
+                previewText: "<p><a href=\"https://www.goodreads.com/book/show/8855321-leviathan-wakes\">Leviathan Wakes (James S.A. Corey, 2011)</a> is the closest a book I've read has come to being a literal TV show. It's fast-paced and visual, and there are enough scary moments and funny moments and sad moments to keep me engaged. It's been years since I've read a book as quickly as I read Leviathan Wakes.</p><p>.....</p>",
+                text: "<p><a href=\"https://www.goodreads.com/book/show/8855321-leviathan-wakes\">Leviathan Wakes (James S.A. Corey, 2011)</a> is the closest a book I've read has come to being a literal TV show. It's fast-paced and visual, and there are enough scary moments and funny moments and sad moments to keep me engaged. It's been years since I've read a book as quickly as I read Leviathan Wakes.</p><p>I think what helped is that I watched the first season-and-a-half of the show, so when I finally picked up the book, I already had in my head the visuals and the feeling of the world. But I honestly think I would've gotten that even if I hadn't watched any of the show. The world of The Expanse is realistic and dark, and despite the fact that the reader gets a close-up view of the characters and their personal journeys, the world still feels big and ambitious.</p><p>I found Holden and Miller, the two POV characters, interesting, lovable and despicable for different reasons and at different times. Usually, if I was annoyed at Holden then I was rooting for Miller, and if I was angry at Miller I was agreeing with Holden. I don't know if the writers created this back-and-forth intentionally or if it was all in my head, but I enjoyed it. It's not that I hated the characters, I just disagreed with them sometimes.</p><p>The plot gets a bit hairy sometimes, but I didn't feel confused because the writers didn't do a good job. I was confused because it's a complex plot where—for goodness' sake—even the characters are struggling to put the pieces together. If anything, the complexity of the story made it all the more interesting and made it easier to sympathize with the characters.</p><p>5/5 stars.</p>",
+                tags: ["review", "reading", "books"],
+            },
             {
                 id: "16",
                 title: "Absolution Gap (The Inhibitor Trilogy #3) - spoiler book review",
