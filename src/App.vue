@@ -5,7 +5,7 @@
             <b-sidebar id="sidebar" shadow no-enforce-focus no-header>
                 <b-nav vertical class="mx-auto">
                     <router-link @click.native="$scrollToTop()" to="/" class="route-link">home<span id="nav-close-button"><font-awesome-icon icon="times" v-b-toggle.sidebar variant="link" /></span></router-link>
-                    <div v-show="$route.name == 'home'">
+                    <!-- <div v-show="$route.name == 'home'">
                         <h2 class="nav-section-header">websites</h2>
                         <b-nav-item class="nav-link" href="#cubing">cubing trainer</b-nav-item>
                         <b-nav-item class="nav-link" href="#mdc">MDC world map</b-nav-item>
@@ -18,7 +18,7 @@
                         <h2 class="nav-section-header">podcasts</h2>
                         <b-nav-item class="nav-link" href="#bwb">Better With Books</b-nav-item>
                         <b-nav-item class="nav-link" href="#awkward">That Was Awkward</b-nav-item>
-                    </div>
+                    </div> -->
                     <router-link @click.native="$scrollToTop()" to="/blog" class="route-link">blog</router-link>
                     <router-link @click.native="$scrollToTop()" to="/about" class="route-link">about</router-link>
                 </b-nav>
@@ -226,8 +226,10 @@ li > .nav-link {
 }
 
 .section-header {
+    margin: 0px auto;
     margin-top: 5%;
     font-size: 1.5rem;
+    width: 75%;
 }
 
 .stack-header {
