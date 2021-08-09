@@ -4,7 +4,9 @@
         <div class="sidebar-wrapper">
             <b-sidebar id="sidebar" shadow no-enforce-focus no-header>
                 <b-nav vertical class="mx-auto">
-                    <span style="text-align: left; height: 30px; margin-bottom: 5%;"><router-link @click.native="$scrollToTop()" to="/" class="route-link">home</router-link><span id="nav-close-button"><font-awesome-icon icon="times" v-b-toggle.sidebar variant="link" /></span></span>
+                    <span class="nav-close-button-wrapper">
+                        <router-link @click.native="$scrollToTop()" to="/" class="route-link">home</router-link>
+                        <span id="nav-close-button"><font-awesome-icon icon="times" v-b-toggle.sidebar variant="link" /></span></span>
                     <div v-show="$route.name == 'home'">
                         <h2 class="nav-section-header">websites</h2>
                         <b-nav-item class="nav-link" href="#cubing">cubing trainer</b-nav-item>
@@ -125,6 +127,12 @@ p {
     background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #23bbf7), color-stop(100%, #ff6f00));
     backdrop-filter: blur(5px);
     padding-top: 30px;
+}
+
+.nav-close-button-wrapper {
+    text-align: left;
+    height: 30px;
+    margin-bottom: 5%;
 }
 
 .route-link {
