@@ -74,7 +74,7 @@
                         <div>[HTML, CSS, jQuery, Bootstrap]</div>
                     </li>
                     <li class="demo">
-                        <a id="puppy">puppy gallery
+                        <a id="puppy" href="https://github.com/ruthrootz/puppy-gallery" target="_blank">puppy gallery
                             <div>
                                 <img class="demo-image" src="@/assets/puppygallery.png" alt="screenshot of puppy photos mobile app" />
                             </div>
