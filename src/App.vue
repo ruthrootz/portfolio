@@ -120,11 +120,11 @@ p {
 }
 
 #sidebar {
-    background-color:#23bbf7;
-    background-image: linear-gradient(#23bbf7, #ff6f00);
-    background:-webkit-linear-gradient(top, #23bbf7, #ff6f00);
-    background:-moz-linear-gradient(top, #23bbf7, #ff6f00);
-    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #23bbf7), color-stop(100%, #ff6f00));
+    background-color:#7ad4f8;
+    background-image: linear-gradient(#7ad4f8, #faad73);
+    background:-webkit-linear-gradient(top, #7ad4f8, #faad73);
+    background:-moz-linear-gradient(top, #7ad4f8, #faad73);
+    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7ad4f8), color-stop(100%, #faad73));
     backdrop-filter: blur(5px);
     padding-top: 30px;
 }
