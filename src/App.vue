@@ -4,8 +4,8 @@
         <div class="sidebar-wrapper">
             <b-sidebar id="sidebar" shadow no-enforce-focus no-header>
                 <b-nav vertical class="mx-auto">
-                    <router-link @click.native="$scrollToTop()" to="/" class="route-link">home<span id="nav-close-button"><font-awesome-icon icon="times" v-b-toggle.sidebar variant="link" /></span></router-link>
-                    <!-- <div v-show="$route.name == 'home'">
+                    <span style="text-align: left; height: 30px; margin-bottom: 5%;"><router-link @click.native="$scrollToTop()" to="/" class="route-link">home</router-link><span id="nav-close-button"><font-awesome-icon icon="times" v-b-toggle.sidebar variant="link" /></span></span>
+                    <div v-show="$route.name == 'home'">
                         <h2 class="nav-section-header">websites</h2>
                         <b-nav-item class="nav-link" href="#cubing">cubing trainer</b-nav-item>
                         <b-nav-item class="nav-link" href="#mdc">MDC world map</b-nav-item>
@@ -18,7 +18,7 @@
                         <h2 class="nav-section-header">podcasts</h2>
                         <b-nav-item class="nav-link" href="#bwb">Better With Books</b-nav-item>
                         <b-nav-item class="nav-link" href="#awkward">That Was Awkward</b-nav-item>
-                    </div> -->
+                    </div>
                     <router-link @click.native="$scrollToTop()" to="/blog" class="route-link">blog</router-link>
                     <router-link @click.native="$scrollToTop()" to="/about" class="route-link">about</router-link>
                 </b-nav>
@@ -112,7 +112,7 @@ p {
 
 #nav-close-button {
     float: right;
-    padding-right: 5%;
+    padding-right: 10%;
     font-size: 1.35rem;
     color: #2c3e50;
 }
@@ -138,7 +138,7 @@ p {
 .nav-section-header, .route-link {
     font-size: 1.25rem;
     text-align: left;
-    padding-left: 5%;
+    padding-left: 10%;
     height: 30px !important;
 }
 
