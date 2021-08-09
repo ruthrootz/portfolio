@@ -179,6 +179,10 @@ li > .nav-link {
     backdrop-filter: blur(5px);
 }
 
+.demo > div > a {
+    font-size: 1rem;
+}
+
 .demo-image {
     width: 90%;
     border-radius: 3%;
