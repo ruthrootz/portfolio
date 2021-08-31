@@ -33,7 +33,7 @@
                                 </svg>
                             </li>
                             <li class="li-icon">
-                                <img src="@/assets/azure.png" width="25" height="25" />
+                                <img src="@/assets/azure.png" width="100%" />
                             </li>
                             <li class="li-icon">
                                 <svg viewBox="0 0 128 128">
