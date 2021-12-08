@@ -101,7 +101,7 @@
                 </ul>
                 <ul>
                     <li class="demo">
-                        <a id="bwb" href="https://betterwithbooks.transistor.fm/" target="_blank">Better With Books
+                        <a id="bwb" href="https://www.listennotes.com/podcasts/better-with-books-rootz-6e-GcFLk1wo/" target="_blank">Better With Books
                             <div>
                                 <img class="demo-image" src="@/assets/books.jpg" alt="better with books podcast cover art" />
                             </div>
@@ -109,7 +109,7 @@
                         <div>books + good ideas = Better With Books</div>
                     </li>
                     <li class="demo">
-                        <a id="awkward" href="https://wasawkwardpod.transistor.fm/" target="_blank">That Was Awkward
+                        <a id="awkward" href="https://www.listennotes.com/podcasts/that-was-awkward-ruth-nadia-cVL7-1StCAG/" target="_blank">That Was Awkward
                             <div>
                                 <img class="demo-image" src="@/assets/awkward.jpg" alt="that was awkward podcast cover art" />
                             </div>
