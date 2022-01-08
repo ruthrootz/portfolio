@@ -1,12 +1,12 @@
 <template>
     <div>
-        <b-container>
-            <b-row>
-                <b-col class="section">
-                    <h1 class="section-header">Hi! I'm Ruth, a full-stack web dev.</h1>
+        <b-container class="bio">
+            <b-row class="text-center">
+                <b-col cols="8" align-self="center" class="bio__section">
+                    <h1 class="bio__section-header">Hi! I'm Ruth, a full-stack web dev.</h1>
                 </b-col>
-                <b-col>
-                    <img class="profile_picture" src="profilepic.jpg" alt="profile picture">
+                <b-col cols="4" align-self="center">
+                    <img class="bio__profile-picture" src="@/assets/profilepic.png" alt="profile picture">
                 </b-col>
             </b-row>
         </b-container>

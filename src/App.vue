@@ -171,8 +171,23 @@ li > .nav-link {
     margin: 0px auto;
 }
 
-.profile_picture {
+.bio {
+    width: 50% !important;
+}
+
+.bio__profile-picture {
+    margin-top: 5%;
+    width: 95%;
     border-radius: 50%;
+}
+
+.bio__section-header {
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+
+.stack-header {
+    font-size: 1.5rem;
 }
 
 .projects {
@@ -236,21 +251,6 @@ li > .nav-link {
 .article {
     margin: 0px auto;
     width: 60%;
-}
-
-.section {
-    margin-bottom: 5%;
-}
-
-.section-header {
-    margin: 0px auto;
-    margin-top: 5%;
-    font-size: 1.5rem;
-    width: 75%;
-}
-
-.stack-header {
-    font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 800px) {
