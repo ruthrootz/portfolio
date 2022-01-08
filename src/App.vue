@@ -171,6 +171,10 @@ li > .nav-link {
     margin: 0px auto;
 }
 
+.profile_picture {
+    border-radius: 50%;
+}
+
 .projects {
     flex-basis: 0;
     flex-grow: 999;

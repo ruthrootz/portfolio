@@ -1,6 +1,15 @@
 <template>
     <div>
-        <div class="section"><h1 class="section-header">Hi! I'm Ruth, a full-stack web dev.</h1></div>
+        <b-container>
+            <b-row>
+                <b-col class="section">
+                    <h1 class="section-header">Hi! I'm Ruth, a full-stack web dev.</h1>
+                </b-col>
+                <b-col>
+                    <img class="profile_picture" src="profilepic.jpg" alt="profile picture">
+                </b-col>
+            </b-row>
+        </b-container>
         <div class="section">
             <div class="projects">
                 <ul>
