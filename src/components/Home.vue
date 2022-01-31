@@ -108,24 +108,6 @@
                         <div>[Python, Kaggle, Jupyter notebook]</div>
                     </li>
                 </ul>
-                <ul>
-                    <li class="demo">
-                        <a id="bwb" href="https://www.listennotes.com/podcasts/better-with-books-rootz-6e-GcFLk1wo/" target="_blank">Better With Books
-                            <div>
-                                <img class="demo-image" src="@/assets/books.jpg" alt="better with books podcast cover art" />
-                            </div>
-                        </a>
-                        <div>books + good ideas = Better With Books</div>
-                    </li>
-                    <li class="demo">
-                        <a id="awkward" href="https://www.listennotes.com/podcasts/that-was-awkward-ruth-nadia-cVL7-1StCAG/" target="_blank">That Was Awkward
-                            <div>
-                                <img class="demo-image" src="@/assets/awkward.jpg" alt="that was awkward podcast cover art" />
-                            </div>
-                        </a>
-                        <div>two girls talking about psychology and socializing</div>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>
