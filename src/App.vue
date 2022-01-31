@@ -17,9 +17,6 @@
                         <h2 class="nav-section-header">other code</h2>
                         <b-nav-item class="nav-link" href="#quant">trading algorithm</b-nav-item>
                         <b-nav-item class="nav-link" href="#goodreads">Goodreads data project</b-nav-item>
-                        <h2 class="nav-section-header">podcasts</h2>
-                        <b-nav-item class="nav-link" href="#bwb">Better With Books</b-nav-item>
-                        <b-nav-item class="nav-link" href="#awkward">That Was Awkward</b-nav-item>
                     </div>
                     <router-link @click.native="$scrollToTop()" to="/blog" class="route-link">blog</router-link>
                     <router-link @click.native="$scrollToTop()" to="/about" class="route-link">about</router-link>
