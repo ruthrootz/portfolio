@@ -1,6 +1,25 @@
 <template>
-    <div id="app">
-        <div id="nav-open-button"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></div>
+    <b-container id="app">
+        <b-row class="text-center justify-content-center">
+            <b-col cols="4" align-self="center" class="bio__section">
+                <h1 class="bio__section-header">
+                    Hi! I'm Ruth, a full-stack web dev.
+                </h1>
+                <div id="nav">
+                    <router-link to="/">home</router-link> |
+                    <router-link to="/blog">blog</router-link> |
+                    <router-link to="/about">about</router-link>
+                </div>
+            </b-col>
+            <b-col cols="2" align-self="center">
+                <img
+                    class="bio__profile-picture"
+                    src="@/assets/profilepic.png"
+                    alt="profile picture"
+                />
+            </b-col>
+        </b-row>
+        <!-- <div id="nav-open-button"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></div>
         <div class="sidebar-wrapper">
             <b-sidebar id="sidebar" shadow no-enforce-focus no-header>
                 <b-nav vertical class="mx-auto">
@@ -22,21 +41,32 @@
                     <router-link @click.native="$scrollToTop()" to="/about" class="route-link">about</router-link>
                 </b-nav>
             </b-sidebar>
+        </div> -->
+        <b-row>
+            <router-view />
+        </b-row>
+        <b-row>
+            <footer>&copy; copyright 2021 Ruth R. Oldja</footer>
+        </b-row>
+        <div id="scroll-to-top" @click="$scrollToTop()">
+            <font-awesome-icon icon="angle-up" variant="link" />
         </div>
-        <router-view />
-        <div id="scroll-to-top" @click="$scrollToTop()"><font-awesome-icon icon="angle-up" variant="link" /></div>
-        <footer>&copy; copyright 2021 Ruth R. Oldja</footer>
-    </div>
+    </b-container>
 </template>
 
 <style>
-
 body {
-    background-color:#23bbf7;
+    background-color: #23bbf7;
     background-image: linear-gradient(#23bbf7, #ff6f00);
-    background:-webkit-linear-gradient(top, #23bbf7, #ff6f00);
-    background:-moz-linear-gradient(top, #23bbf7, #ff6f00);
-    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #23bbf7), color-stop(100%, #ff6f00));
+    background: -webkit-linear-gradient(top, #23bbf7, #ff6f00);
+    background: -moz-linear-gradient(top, #23bbf7, #ff6f00);
+    background-image: -webkit-gradient(
+        linear,
+        50% 0%,
+        50% 100%,
+        color-stop(0%, #23bbf7),
+        color-stop(100%, #ff6f00)
+    );
     background-attachment: fixed;
     scroll-behavior: smooth;
 }
@@ -79,12 +109,12 @@ p {
 
 #scroll-to-top {
     position: fixed;
-    bottom: 5px;
-    right: 15px;
+    bottom: 1px;
+    right: 20px;
     z-index: 99;
     cursor: pointer;
     padding: 1%;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 #nav {
@@ -117,11 +147,17 @@ p {
 }
 
 #sidebar {
-    background-color:#7ad4f8;
+    background-color: #7ad4f8;
     background-image: linear-gradient(#7ad4f8, #faad73);
-    background:-webkit-linear-gradient(top, #7ad4f8, #faad73);
-    background:-moz-linear-gradient(top, #7ad4f8, #faad73);
-    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7ad4f8), color-stop(100%, #faad73));
+    background: -webkit-linear-gradient(top, #7ad4f8, #faad73);
+    background: -moz-linear-gradient(top, #7ad4f8, #faad73);
+    background-image: -webkit-gradient(
+        linear,
+        50% 0%,
+        50% 100%,
+        color-stop(0%, #7ad4f8),
+        color-stop(100%, #faad73)
+    );
     backdrop-filter: blur(5px);
     padding-top: 30px;
 }
@@ -141,7 +177,8 @@ p {
     color: #2c3e50;
 }
 
-.nav-section-header, .route-link {
+.nav-section-header,
+.route-link {
     font-size: 1.25rem;
     text-align: left;
     padding-left: 10%;
@@ -200,7 +237,7 @@ li > .nav-link {
     margin: 1% auto;
     padding: 2%;
     font-size: 0.95rem;
-    background-color: rgba(255, 255, 255, .15);
+    background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(5px);
 }
 
@@ -225,6 +262,7 @@ li > .nav-link {
 }
 
 .demo.stack {
+    margin: 5% auto;
     border-radius: 0%;
 }
 
@@ -233,9 +271,11 @@ li > .nav-link {
     margin: 0px auto;
 }
 
-.post, .article, .about {
+.post,
+.article,
+.about {
     text-align: left;
-    background-color: rgba(255, 255, 255, .15);
+    background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(5px);
     margin: 5% auto;
     padding: 2%;
@@ -252,12 +292,6 @@ li > .nav-link {
 
 @media only screen and (max-width: 800px) {
 
-    #scroll-to-top {
-        bottom: 1px;
-        right: 5px;
-        font-size: 1.35rem;
-    }
-
     #nav-open-button {
         top: 30px;
     }
@@ -271,7 +305,8 @@ li > .nav-link {
         width: 90%;
     }
 
-    .blog, .article {
+    .blog,
+    .article {
         width: 90%;
         border-radius: 0%;
     }
@@ -279,7 +314,5 @@ li > .nav-link {
     .section {
         font-size: 0.75rem;
     }
-
 }
-
 </style>

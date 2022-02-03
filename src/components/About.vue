@@ -1,6 +1,5 @@
 <template>
     <div class="center">
-        <h1 class="section-header">about</h1>
         <div class="about">
             <p>
                 book person. code person. always learning person.
