@@ -1,6 +1,5 @@
 <template>
     <div class="center">
-        <h1 class="section-header">blog</h1>
         <div class="blog">
             <div v-for="article in articles" :key="article.id">
                 <div class="post">
