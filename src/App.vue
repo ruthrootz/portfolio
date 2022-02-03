@@ -1,7 +1,7 @@
 <template>
     <b-container id="app">
         <b-row class="text-center justify-content-center">
-            <b-col cols="4" align-self="center" class="bio__section">
+            <b-col cols="10" lg="4" align-self="center" class="bio__section">
                 <h1 class="bio__section-header">
                     Hi! I'm Ruth, a full-stack web dev.
                 </h1>
@@ -11,7 +11,7 @@
                     <router-link to="/about">about</router-link>
                 </div>
             </b-col>
-            <b-col cols="2" align-self="center">
+            <b-col class="bio__profile-picture-container" cols="2" align-self="center">
                 <img
                     class="bio__profile-picture"
                     src="@/assets/profilepic.png"
@@ -290,10 +290,14 @@ li > .nav-link {
     width: 60%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
 
     #nav-open-button {
         top: 30px;
+    }
+
+    .bio__profile-picture-container {
+        display: none;
     }
 
     .projects {
