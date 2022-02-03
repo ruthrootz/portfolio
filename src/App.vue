@@ -266,6 +266,7 @@ li > .nav-link {
 }
 
 .demo.stack {
+    margin: 5% auto;
     border-radius: 0%;
 }
 
