@@ -45,14 +45,12 @@
         <b-row>
             <router-view />
         </b-row>
-        <b-row text-align="right">
-            <div id="scroll-to-top" @click="$scrollToTop()">
-                <font-awesome-icon icon="angle-up" variant="link" />
-            </div>
-        </b-row>
         <b-row>
             <footer>&copy; copyright 2021 Ruth R. Oldja</footer>
         </b-row>
+        <div id="scroll-to-top" @click="$scrollToTop()">
+            <font-awesome-icon icon="angle-up" variant="link" />
+        </div>
     </b-container>
 </template>
 
@@ -107,18 +105,16 @@ p {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-left: 35px;
-    margin-right: 35px;
 }
 
 #scroll-to-top {
     position: fixed;
-    bottom: 5px;
-    right: 15px;
+    bottom: 1px;
+    right: 20px;
     z-index: 99;
     cursor: pointer;
     padding: 1%;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 #nav {
@@ -295,11 +291,6 @@ li > .nav-link {
 }
 
 @media only screen and (max-width: 800px) {
-    #scroll-to-top {
-        bottom: 1px;
-        right: 5px;
-        font-size: 1.35rem;
-    }
 
     #nav-open-button {
         top: 30px;
