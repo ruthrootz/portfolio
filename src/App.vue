@@ -14,7 +14,7 @@
             <b-col class="bio__profile-picture-container" cols="2" align-self="center">
                 <img
                     class="bio__profile-picture"
-                    src="@/assets/profilepic.png"
+                    src="@/assets/headshot.jpg"
                     alt="profile picture"
                 />
             </b-col>
