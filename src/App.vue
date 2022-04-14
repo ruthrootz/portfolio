@@ -1,7 +1,7 @@
 <template>
     <b-container id="app">
         <b-row class="text-center justify-content-center">
-            <b-col cols="10" lg="4" align-self="center" class="bio__section">
+            <b-col align-self="center" class="bio__section">
                 <h1 class="bio__section-header">
                     Hi! I'm Ruth, a full-stack web dev.
                 </h1>
@@ -11,13 +11,13 @@
                     <router-link to="/about">about</router-link>
                 </div>
             </b-col>
-            <b-col class="bio__profile-picture-container" cols="2" align-self="center">
+            <!-- <b-col class="bio__profile-picture-container" cols="2" align-self="center">
                 <img
                     class="bio__profile-picture"
                     src="@/assets/headshot.jpg"
                     alt="profile picture"
                 />
-            </b-col>
+            </b-col> -->
         </b-row>
         <!-- <div id="nav-open-button"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></div>
         <div class="sidebar-wrapper">
