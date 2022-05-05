@@ -4,7 +4,7 @@
             <p>
                 book person. code person. always learning person.
             </p>
-            <p class="bio__section-text">I work at <a href="https://www.priorauthnow.com" target="_blank">PriorAuthNow</a> as a software engineer, using AWS, .NET, TypeScript, Vue and Azure DevOps.</p>
+            <p class="bio__section-text">I work at <a href="https://www.getrhyme.com/" target="_blank">Rhyme</a> as a software engineer, using AWS, .NET, TypeScript, Vue and Azure DevOps.</p>
             <ul>
                 <li>
                     <a href="mailto:rutholdja@icloud.com">
