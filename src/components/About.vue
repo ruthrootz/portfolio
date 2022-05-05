@@ -38,12 +38,12 @@
                         Kaggle
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="https://www.goodreads.com/user/show/72249220-ruth" target="_blank">
                         <img class="icon" src="@/assets/goodreads.png" alt="goodreads logo" />
                         goodreads
                     </a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>
