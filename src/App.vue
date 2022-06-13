@@ -1,5 +1,17 @@
 <template>
     <div id="app">
+        <b-navbar>
+            <b-navbar-nav>
+                <b-nav-item-dropdown href="#" text="home" right>
+                    <b-dropdown-item href="#">EN</b-dropdown-item>
+                    <b-dropdown-item href="#">ES</b-dropdown-item>
+                    <b-dropdown-item href="#">RU</b-dropdown-item>
+                    <b-dropdown-item href="#">FA</b-dropdown-item>
+                </b-nav-item-dropdown>
+                <b-nav-item href="#">about</b-nav-item>
+                <b-nav-item href="#">blog</b-nav-item>
+            </b-navbar-nav>
+        </b-navbar>
         <div id="nav-open-button"><font-awesome-icon icon="bars" v-b-toggle.sidebar variant="link" /></div>
         <div class="sidebar-wrapper">
             <b-sidebar id="sidebar" shadow no-enforce-focus no-header>
