@@ -6,7 +6,14 @@ Vue.use(Vuex);
 export default new Vuex.Store({
     state: {
         articles: [
-                        {
+            {
+                id: "18",
+                title: "The Shadow of the Torturer - spoiler-free review",
+                previewText: "<p><a href=\"https://www.goodreads.com/book/show/1234311.The_Shadow_of_the_Torturer\" target=\"_blank\">The Shadow of the Torturer (Gene Wolfe, 1980)</a> succeeds in so many areas... The prose is beautiful, the characters are complex, the dry humor is subtle and entertaining. But where it truly shines is in world building.</p><p>.....</p>",
+                text: "<p><a href=\"https://www.goodreads.com/book/show/1234311.The_Shadow_of_the_Torturer\" target=\"_blank\">The Shadow of the Torturer (Gene Wolfe, 1980)</a> succeeds in so many areas... The prose is beautiful, the characters are complex, the dry humor is subtle and entertaining. But where it truly shines is in world building. I cannot believe that a single man developed and wrote about a world as complex and layered as Urth. Maybe this book truly did travel back from the future...</p><p>Wolfe does a brilliant job getting the reader into the head of the main character. But “in the head” means something different than it does for other books I’ve read. You’re in the head of someone who is millennia in the future. You’re in the head of an autarch who is writing a memoir, someone who clearly wants to manipulate how he’s seen by his readers. So being in his head means you have to read carefully and critically in order to understand what’s going on.</p><p>Trying to decipher what was going on and what Severian was leaving unexplained led to the most enjoyable reading experience I’ve had in a very long time. I was a happy Holmes with <a href=“https://www.alzabosoup.com“ target=\"_blank\">Alzabo Soup</a> and an entire cult (<a href=\"https://www.youtube.com/c/MovieDeathCult\" target=\"_blank\">Media Death Cult</a>, the YouTube channel and community) as my Watson.</p><p>(No, the cult is not evil. It's a collection of sci-fi dorks led by an English booktuber.)</p>",
+                tags: ["review", "reading", "books", "the shadow of the torturer", "booktube", "Media Death Cult"],
+            },
+            {
                 id: "17",
                 title: "Leviathan Wakes - spoiler-free book review",
                 publishDate: "08/072021",
