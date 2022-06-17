@@ -290,6 +290,12 @@ li > .nav-link {
     width: 60%;
 }
 
+.bold-text {
+    color: #2c3e50 !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 @media only screen and (max-width: 992px) {
 
     #nav-open-button {
