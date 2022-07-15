@@ -142,7 +142,7 @@
                             </div>
                         </a>
                         <div>
-                            an app that displays random adorable puppy pictures
+                            an app that displays random adorable doggo photos
                         </div>
                         <div>
                             [Flutter,
