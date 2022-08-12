@@ -3,7 +3,7 @@
         <b-row class="text-center justify-content-center">
             <b-col align-self="center" class="bio__section">
                 <h1 class="bio__section-header">
-                    Hi! I'm Ruth, a full-stack web dev.
+                    Hi! I'm Ruth, a full-stack software engineer.
                 </h1>
                 <div id="nav">
                     <router-link to="/">home</router-link> |
