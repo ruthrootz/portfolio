@@ -4,7 +4,7 @@
             <p>
                 book person. code person. always learning person.
             </p>
-            <p class="bio__section-text">I'm a full-stack software engineer with experience in AWS, Azure, .NET Core, Node.js, and Vue.js. I'm a software engineer at <a href="https://www.getrhyme.com/" target="_blank">Rhyme</a>, on a mission to completely automate the prior authorization process.</p>
+            <p class="bio__section-text">I'm a full-stack software engineer with experience in AWS, Azure, .NET Core, Node.js, and Vue.js. I'm a software engineer at <a href="https://www.getrhyme.com/" target="_blank">Rhyme</a>, on a mission to completely automate prior authorizations.</p>
             <ul>
                 <li>
                     <a href="mailto:rutholdja@icloud.com">
