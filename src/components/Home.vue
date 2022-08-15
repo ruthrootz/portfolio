@@ -191,6 +191,27 @@
                         <div>[Python, Kaggle, Jupyter notebook]</div>
                     </li>
                 </ul>
+                <ul>
+                    <li class="demo">
+                        <a
+                            id="mojo"
+                            href="https://anchor.fm/mojobookreviews"
+                            target="_blank"
+                            >Mojo Book Reviews podcast
+                            <div>
+                                <img
+                                    class="demo-image"
+                                    src="@/assets/mojo.png"
+                                    alt="MoJo Book Reviews artwork"
+                                />
+                            </div>
+                        </a>
+                        <div>
+                            book review podcast I make with my friend
+                        </div>
+                        <div>[Anchor, GarageBand, Blue Yeti mic]</div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
