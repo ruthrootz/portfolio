@@ -11,28 +11,28 @@ const routes: Array<RouteConfig> = [
   {
     path: "/",
     name: "home",
-    component: Home,
+    component: Home
   },
   {
     path: "/about",
     name: "about",
-    component: About,
+    component: About
   },
   {
     path: "/blog",
     name: "blog",
-    component: Blog,
+    component: Blog
   },
   {
     path: "/blog/:id",
     name: "article",
-    component: Article,
-  },
+    component: Article
+  }
 ];
 
 const router = new VueRouter({
   base: process.env.BASE_URL,
-  routes,
+  routes
 });
 
 export default router;

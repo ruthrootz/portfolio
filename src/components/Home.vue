@@ -7,7 +7,7 @@
                         <h2 class="stack-header">my stack</h2>
                         <ul>
                             <li class="li-icon" name="c-sharp">
-                                <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white" width="100% />
+                                <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white" width="100%" />
                                 <!-- <svg viewBox="0 0 128 128">
                                     <g fill="#68217A">
                                         <path
