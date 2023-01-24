@@ -6,7 +6,7 @@
                     <li class="demo stack">
                         <h2 class="stack-header">my stack</h2>
                         <ul>
-                            <li class="li-icon">
+                            <li class="li-icon" name="vue">
                                 <svg viewBox="0 0 128 128">
                                     <path
                                         d="m-2.3125e-8 8.9337 49.854 0.1586 14.167 24.47 14.432-24.47 49.547-0.1577-63.834 110.14zm126.98 0.6374-24.36 0.0207-38.476 66.052-38.453-66.052-24.749-0.0194 63.211 107.89zm-25.149-0.008-22.745 0.16758l-15.053 24.647-14.817-24.647-22.794-0.1679 37.731 64.476zM25.997 9.3929l23.002 0.0087M25.997 9.3929l23.002 0.0087"
@@ -22,7 +22,7 @@
                                     ></path>
                                 </svg>
                             </li>
-                            <li class="li-icon">
+                            <li class="li-icon" name="bootstrap">
                                 <svg viewBox="0 0 128 128">
                                     <path
                                         fill="#5B4282"
@@ -30,7 +30,7 @@
                                     ></path>
                                 </svg>
                             </li>
-                            <li class="li-icon">
+                            <li class="li-icon" name="typescript">
                                 <svg viewBox="0 0 128 128">
                                     <path
                                         id="plain"
@@ -39,7 +39,7 @@
                                     ></path>
                                 </svg>
                             </li>
-                            <li class="li-icon">
+                            <li class="li-icon" name="git">
                                 <svg viewBox="0 0 128 128">
                                     <path
                                         fill="#F34F29"
@@ -47,10 +47,10 @@
                                     ></path>
                                 </svg>
                             </li>
-                            <li class="li-icon">
+                            <li class="li-icon" name="azure">
                                 <img src="@/assets/azure.png" width="100%" />
                             </li>
-                            <li class="li-icon">
+                            <li class="li-icon" name="c-sharp">
                                 <svg viewBox="0 0 128 128">
                                     <g fill="#68217A">
                                         <path
@@ -59,7 +59,7 @@
                                     </g>
                                 </svg>
                             </li>
-                            <li class="li-icon">
+                            <li class="li-icon" name="django">
                                 <svg viewBox="0 0 128 128">
                                     <g fill="#003A2B">
                                         <path
