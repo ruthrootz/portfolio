@@ -82,7 +82,7 @@ ul {
 
 li {
   display: inline-block;
-  margin: 0px 10px;
+  margin: 0px 5px;
 }
 
 a {
