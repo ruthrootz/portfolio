@@ -258,7 +258,7 @@ li > .nav-link {
 }
 
 .li-icon {
-  width: 13%;
+  width: 12%;
 }
 
 .demo.stack {
