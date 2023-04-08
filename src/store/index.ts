@@ -7,6 +7,14 @@ export default new Vuex.Store({
     state: {
         articles: [
             {
+                id: "20",
+                title: "Readers Are Going Extinct",
+                publishDate: "04/08/2023",
+                previewText: "<p>coming soon...</p>",
+                text: "<p>coming soon...</p>",
+                tags: ["reading", "psychology", "focus", "productivity", "attention"],
+            },
+            {
                 id: "19",
                 title: "tips for reading The Book of the New Sun",
                 publishDate: "06/17/2022",
