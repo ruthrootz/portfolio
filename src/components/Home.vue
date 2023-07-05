@@ -55,9 +55,7 @@
                                 <img src="@/assets/azure.png" width="100%" />
                             </li>
                             <li class="li-icon" name="aws">
-                                <svg viewBox="0 0 128 128">
-                                    <g transform="translate(0.000000,1585.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"></g>
-                                </svg>
+                                <img src="@/assets/aws.png" width="100%" />
                             </li>
                         </ul>
                     </li>
