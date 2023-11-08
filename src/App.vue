@@ -3,7 +3,10 @@
         <b-row class="text-center justify-content-center">
             <b-col align-self="center" class="bio__section">
                 <h1 class="bio__section-header">
-                    Hi! I'm Ruth, a full-stack software engineer. I work at <a href="https://www.getrhyme.com/" target="_blank">Rhyme</a>, where we're on a mission to completely automate the prior authorization process.
+                    Hi! I'm Ruth, a full-stack software engineer.
+                </h1>
+                <h1 class="bio__section-header">
+                    I work at <a href="https://www.getrhyme.com/" target="_blank">Rhyme</a>, where we're on a mission to completely automate the prior authorization process.
                 </h1>
                 <div id="nav">
                     <router-link to="/">home</router-link> |
