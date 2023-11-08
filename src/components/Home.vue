@@ -5,6 +5,9 @@
                 <ul>
                     <li class="demo stack">
                         <h2 class="stack-header">my stack</h2>
+                        <p>
+                            I work at <a href="https://www.getrhyme.com/" target="_blank">Rhyme</a>, where we're on a mission to completely automate the prior authorization process.
+                        </p>
                         <ul>
                             <li class="li-icon" name="c-sharp">
                                 <svg viewBox="0 0 128 128">
