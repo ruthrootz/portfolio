@@ -7,7 +7,7 @@
                         <p>
                             I work at <a href="https://www.getrhyme.com/" target="_blank">Rhyme</a>, where we're on a mission to completely automate the prior authorization process.
                         </p>
-                    </li
+                    </li>
                     <li class="demo stack">
                         <h2 class="stack-header">my stack</h2>
                         <ul>
