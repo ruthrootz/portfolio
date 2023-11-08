@@ -3,11 +3,13 @@
         <div class="section">
             <div class="projects">
                 <ul>
-                    <li class="demo stack">
-                        <h2 class="stack-header">my stack</h2>
+                    <li class="demo">
                         <p>
                             I work at <a href="https://www.getrhyme.com/" target="_blank">Rhyme</a>, where we're on a mission to completely automate the prior authorization process.
                         </p>
+                    </li
+                    <li class="demo stack">
+                        <h2 class="stack-header">my stack</h2>
                         <ul>
                             <li class="li-icon" name="c-sharp">
                                 <svg viewBox="0 0 128 128">
