@@ -46,7 +46,7 @@
             <router-view />
         </b-row>
         <b-row>
-            <footer>&copy; copyright 2023 Ruth R. Oldja</footer>
+            <footer>&copy; copyright 2024 Ruth R. Oldja</footer>
         </b-row>
         <div id="scroll-to-top" @click="$scrollToTop()">
             <font-awesome-icon icon="angle-up" variant="link" />
