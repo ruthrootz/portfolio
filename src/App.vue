@@ -307,17 +307,17 @@ li > .nav-link {
     }
 
     .projects {
-        width: 95%;
+        width: 100%;
         margin: 0px auto;
     }
 
     .demo {
-        width: 95%;
+        width: 100%;
     }
 
     .blog,
     .article {
-        width: 95%;
+        width: 100%;
         border-radius: 0%;
     }
 
@@ -326,7 +326,7 @@ li > .nav-link {
     }
 
     .center {
-        width: 95%;
+        width: 100%;
     }
 
 }
