@@ -307,22 +307,27 @@ li > .nav-link {
     }
 
     .projects {
-        width: 90%;
+        width: 95%;
         margin: 0px auto;
     }
 
     .demo {
-        width: 90%;
+        width: 95%;
     }
 
     .blog,
     .article {
-        width: 90%;
+        width: 95%;
         border-radius: 0%;
     }
 
     .section {
         font-size: 0.75rem;
     }
+
+    .center {
+        width: 95%;
+    }
+
 }
 </style>
