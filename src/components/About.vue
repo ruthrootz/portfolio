@@ -2,7 +2,7 @@
     <div class="center">
         <div class="about">
             <p>
-                book person. code person. always learning person.
+                code person. book person. always learning person.
             </p>
             <p class="bio__section-text">I'm a full-stack software engineer with experience in AWS, Azure, .NET Core, Node.js, and Vue.js. I work at <a href="https://www.getrhyme.com/" target="_blank">Rhyme</a>, where we're on a mission to completely automate the prior authorization process.</p>
             <ul>
