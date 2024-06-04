@@ -212,11 +212,6 @@ li > .nav-link {
     border-radius: 50%;
 }
 
-.bio__section-header {
-    margin-top: 1%;
-    font-size: 1.5rem;
-}
-
 .stack-header {
     font-size: 1.5rem;
 }
