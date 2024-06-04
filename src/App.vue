@@ -2,14 +2,14 @@
     <b-container id="app">
         <b-row class="text-center justify-content-center">
             <b-col align-self="center" class="bio__section">
-                <h1 class="bio__section-header">
-                    Hi! I'm Ruth, a full-stack software engineer.
-                </h1>
                 <div id="nav">
                     <router-link to="/">home</router-link> |
                     <router-link to="/blog">blog</router-link> |
                     <router-link to="/about">about</router-link>
                 </div>
+                <h1 class="bio__section-header">
+                    Hi! I'm Ruth, a full-stack software engineer.
+                </h1>
             </b-col>
             <!-- <b-col class="bio__profile-picture-container" cols="2" align-self="center">
                 <img
