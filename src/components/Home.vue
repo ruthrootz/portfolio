@@ -5,7 +5,7 @@
                 <ul>
                     <li class="demo">
                         <p>
-                            I work at <a href="https://www.getrhyme.com/" target="_blank">Rhyme</a>, where we're on a mission to completely automate the prior authorization process.
+                            Hi! I'm Ruth, a full-stack software engineer. I work at <a href="https://www.getrhyme.com/" target="_blank">Rhyme</a>, where we're on a mission to completely automate the prior authorization process.
                         </p>
                     </li>
                     <li class="demo stack">
