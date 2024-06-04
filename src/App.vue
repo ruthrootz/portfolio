@@ -216,7 +216,7 @@ li > .nav-link {
 }
 
 .bio__section-header {
-    margin-top: 5%;
+    margin-top: 1%;
     font-size: 1.5rem;
 }
 
