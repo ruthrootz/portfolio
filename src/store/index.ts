@@ -7,6 +7,13 @@ export default new Vuex.Store({
     state: {
         articles: [
             {
+                id: "20",
+                title: "",
+                publishDate: "11/26/2024",
+                previewText: "",
+                text: "",
+                tags: [],
+            {
                 id: "19",
                 title: "tips for reading The Book of the New Sun",
                 publishDate: "06/17/2022",
