@@ -13,6 +13,11 @@ export default class ArticleComponent extends Vue {
             (a: Article) => a.id === id
         );
         // TODO: get file that matches id
+        fetch(`../store/posts/${id}.html`)
+            .then(response => response.text())
+            .then(html => {
+                this.postHtml = html;
+            });
         this.postHtml = "";
     }
 
