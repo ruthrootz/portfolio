@@ -7,6 +7,14 @@ export default new Vuex.Store({
     state: {
         articles: [
             {
+                id: "20",
+                title: "a basic Entity Framework Core API... except everything's generic",
+                publishDate: "12/07/2024",
+                previewText: "testing, testing...",
+                text: "",
+                tags: []
+            },
+            {
                 id: "19",
                 title: "tips for reading The Book of the New Sun",
                 publishDate: "06/17/2022",
