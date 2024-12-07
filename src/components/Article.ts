@@ -5,12 +5,15 @@ import { Article } from '@/models/Article';
 export default class ArticleComponent extends Vue {
 
     private article: Article = new Article('', '', new Date(), '', []);
+    private postHtml: string = "";
 
     private mounted(): void {
         const id: string = this.$route.params.id;
         this.article = this.$store.state.articles.find(
             (a: Article) => a.id === id
         );
+        // TODO: get file that matches id
+        this.postHtml = "";
     }
 
 }
