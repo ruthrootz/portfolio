@@ -1,0 +1,222 @@
+<p>One of my tech leads asked me to work on a .NET Core POC for him. He wanted an API that could handle an arbitrary number of data models in the most streamlined way possible. Ideally, all you'd have to do is create the class for the data model you want and then everything would just work. The table would get created, the foreign key relationships would be enforced, and the CRUD endpoints would work as expected, with no additional code needed.</p>
+<p>So off I went to attempt to create the perfect generic EF Core API... But it's not about the destination. It's really about the metaprogramming patterns you learn along the way.</p>
+<h5 id='the-first-step-is-to-set-up-a-basic-ef-project'>The first step is to set up a basic EF project.</h5>
+<p>To get an EF Core project up and running in my .NET 8 project, I needed these three EF packages:</p>
+<ul>
+<li><code>Microsoft.EntityFrameworkCore.Design</code></li>
+<li><code>Microsoft.EntityFrameworkCore.SqlServer</code></li>
+<li><code>Microsoft.EntityFrameworkCore.Tools</code></li>
+</ul>
+<p>I created two classes (we'll call them <code>Library</code> and <code>Book</code>) that were related to each other. A <code>Library</code> can have many <code>Books</code> and a <code>Book</code> can belong to one <code>Library</code>. Here are the classes:</p>
+<pre><code>public interface ISampleEntityType
+{
+	public int ID { get; set; }
+}
+public class Library : ISampleEntityType
+{
+	[Key]
+	public int ID { get; set; }
+	public string Name { get; set; }
+	public ICollection&#x3C;Book> Books { get; set; }
+}
+public class Book : ISampleEntityType
+{
+	[Key]
+	public int ID { get; set; }
+	public string Name { get; set; }
+	public string Author { get; set; }
+	public int? LibraryID { get; set; }
+	public Library? Library { get; set; }
+}
+</code></pre>
+<p>The <code>[Key]</code> attribute is an EF attribute that specifies that the property should be the PK of the table. EF Core is usually smart enough to figure this out based on the property name, but I added it just in case.</p>
+<p>The DbContext class is what allows you to connect to and interact with the DB. Here's what that looks like:</p>
+<pre><code>public class SampleDbContext : DbContext
+{
+    public SampleDbContext(DbContextOptions&#x3C;SampleDbContext> options) : base(options) { }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlServer('');
+    }
+
+    public DbSet&#x3C;Library>? Libraries { get; set; }
+    public DbSet&#x3C;Book>? Books { get; set; }
+}
+</code></pre>
+<p>And in <code>Startup.cs</code>, I added <code>services.AddDbContext&#x3C;SampleDbContext>();</code> to register the DbContext with the IOC container. But there's one thing missing from the DbContext class. It needs a connection to the DB. For the POC, I created an AWS RDS Microsoft SQL Server instance. I followed <a href='https://youtu.be/U8VdDtSWRPc'>these</a> <a href="https://youtu.be/gmsrU63XAhg">two</a> videos to get the instance set up, the permissions set up, and the connection string correct. The connection string goes into the <code>UseSqlServer()</code> call like so:</p>
+<pre><code>optionsBuilder.UseSqlServer('Data Source=sample-db.rds.amazonaws.com,1433; Initial Catalog=sample-schema; User ID=sa; Password=Password123; MultipleActiveResultSets=True; Encrypt=True; Trust Server Certificate=True');
+</code></pre>
+<p>Next up, I had to have the EF CLI tool installed: <code>dotnet tool install --global dotnet-ef</code>. Running <code>dotnet ef migrations add NameOfMigration</code> will create a new migration in your project. Those are the instructions for how to apply the changes you made to the data entities in your project. In this case, the only thing that happened was that two initial classes were created. Next, running <code>dotnet ef database update</code> will run any migrations that haven't been applied yet and those changes to the connected DB. In this example, two tables with their respective PK and FK constraints should be created.</p>
+<p>That takes care of the EF and DB side of things. The consumer of the project can now simply create the classes they need, run <code>dotnet ef</code> commands, and like magic, the tables and relationships will appear in the DB.</p>
+<h5 id='but-what-about-filling-those-tables-and-getting-to-that-data-this-is-where-the-fun-begins'>But what about filling those tables and getting to that data? This is where the fun begins.</h5>
+<p>I wanted one controller with five endpoints: get all, get by id, create, update and delete. I wanted these endpoints to be able to handle any data model defined in the project. To achieve that, each endpoint gets an <code>entityType</code> parameter that matches the name of the model the consumer is trying to interact with. For example, <code>GET /api/library</code> should get all libraries and <code>GET /api/book</code> should get all books, and both these requests should be handled by the same endpoint.</p>
+<p>The general flow of one of these endpoint methods is:</p>
+<ul>
+<li>Figure out if the route param <code>entityType</code> relates to a valid type and, if it does, get the <code>Type</code> object associated with it.</li>
+<li>If it's a POST request, check for a validator class for that given <code>entityType</code>. If there's a validator, create an instance of the validator and run it.</li>
+<li>Get an instance of <code>GenericRepository&#x3C;></code> for the given type by asking the IOC for one.</li>
+<li>Call the repository method and return the result.</li>
+</ul>
+<p>For starters, I created a generic repository that implemented two interfaces. I'll call them <code>ISampleRepository</code> and <code>IGenericRepository</code>. The purpose of the first interface was to be able to cast the repository instance in the controller, as you'll see in a minute. The second interface was for registering with the IOC. They both have the same methods, except one works with entities of type <code>ISampleEntityType</code> and one works with entities of type <code>T</code>. Here's what the generic repository looked like:</p>
+<pre><code>public class GenericRepository&#x3C;T> : ISampleRepository, IGenericRepository&#x3C;T> where T : class, ISampleEntityType
+{
+    private readonly SampleDbContext dbContext;
+
+    public GenericRepository(SampleDbContext dbContext)
+    {
+        this.dbContext = dbContext;
+    }
+
+    IQueryable&#x3C;ISampleEntityType>? ISampleRepository.Get() => Get();
+	public IQueryable&#x3C;T>? Get()
+	{
+	    try
+	    {  
+	        return dbContext
+	            .Set&#x3C;T>()
+	            .AsNoTracking()
+	            .AsQueryable();
+	    }
+	    catch (Exception)
+	    {
+	        return null;
+	    }
+	}
+
+    IQueryable&#x3C;ISampleEntityType> ISampleRepository.Get(int id) => Get(id);
+	public IQueryable&#x3C;T> Get(int id)
+	{
+	    return dbContext
+	        .Set&#x3C;T>()
+	        .AsNoTracking()
+	        .AsQueryable()
+	        .Where(e => e.ID == id);
+	}
+
+    async Task ISampleRepository.Create(ISampleEntityType entity) => await Create((entity as T)!);
+    public async Task Create(T entity)
+    {
+        await dbContext.Set&#x3C;T>().AddAsync(entity);
+        await dbContext.SaveChangesAsync();
+    }
+
+    async Task ISampleRepository.Update(int id, ISampleEntityType entity) => await Update(id, (entity as T)!);
+    public async Task Update(int id, T entity)
+    {
+        entity.ID = id;
+        dbContext.Set&#x3C;T>().Update(entity);
+        await dbContext.SaveChangesAsync();
+    }
+
+    public async Task Delete(int id)
+    {
+        var entity = Get(id).FirstOrDefault();
+		if (entity is not null)
+		    dbContext.Set&#x3C;T>().Remove(entity);
+        await dbContext.SaveChangesAsync();
+    }
+}
+</code></pre>
+<p>You can see that the <code>GenericRepository&#x3C;T></code> implements two interfaces, so to simplify things I used explicit interface implementations to make one method call the other. Example from <code>Get()</code>: <code>IQueryable&#x3C;ISampleEntityType>? ISampleRepository.Get() => Get();</code>. The <code>ISampleRepository</code> implementation of <code>Get()</code> calls the <code>IGenericRepository&#x3C;T></code> implementation.</p>
+<p>Now let's take a look at the controller to see how this generic repository class comes into play. Here's the <code>POST /{entityType}</code> endpoint:</p>
+<pre><code>[HttpPost('{entityType}')]
+public async Task&#x3C;IActionResult> Create([FromRoute] string entityType, [FromBody] JObject incomingEntity)
+{
+    var getEntityTypeResult = GetEntityType(entityType);
+    if (getEntityTypeResult.TryPickT0(out IActionResult? getEntityTypeError, out Type? matchingEntityType))
+    {
+        return getEntityTypeError;
+    }
+
+    var parsedEntity = incomingEntity.ToObject(matchingEntityType) as IMdmEntityType;
+
+    var getValidatorResult = GetValidator(matchingEntityType);
+    if (getValidatorResult.TryPickT0(out IActionResult? getValidatorError, out IMdmValidator? validator))
+    {
+        return getValidatorError;
+    }
+    if (validator is not null)
+    {
+        var validationResult = validator.Validate(parsedEntity!);
+        if (!validationResult.Valid)
+        {  
+            return BadRequest(validationResult);
+        }
+    }
+
+    var getRepositoryResult = GetRepository(matchingEntityType);
+    if (getRepositoryResult.TryPickT0(out IActionResult? getRepoError, out IMdmRepository? repository))
+    {
+        return getRepoError;
+    }
+
+    await repository.Create(parsedEntity!);
+    return Ok();
+}
+</code></pre>
+<p>The first step is to get the actual <code>Type</code> that the string <code>entityType</code> represents. <code>GetEntityType()</code> looks like this:</p>
+<pre><code>private OneOf&#x3C;IActionResult, Type> GetEntityType(string entityType)
+{
+    var matchingEntityType = Assembly.GetExecutingAssembly().GetTypes().
+        Where(t=>t.GetInterfaces().Contains(typeof(IMdmEntityType)))
+        .SingleOrDefault(t => string.Equals(t.Name, entityType, StringComparison.CurrentCultureIgnoreCase));
+    if (matchingEntityType is null)
+    {
+        return BadRequest($'entityType not supported');
+    }
+    return matchingEntityType;
+}
+</code></pre>
+<p>(I used <a href='https://github.com/mcintyre321/OneOf'>this cool package</a> for introducing union types to C#.)</p>
+<p>Given that <code>Type</code> object, the POST method can now create an instance of that <code>Type</code> with <code>incomingEntity.ToObject(matchingEntityType)</code>. And once the instance is created, it can be validated with a validator, if a validator exists for the given type. <code>GetValidator()</code> looks like this:</p>
+<pre><code>private OneOf&#x3C;IActionResult, IMdmValidator?> GetValidator(Type matchingEntityType)
+{
+    var validatorType = typeof(IGenericValidator&#x3C;>).MakeGenericType(matchingEntityType);
+    var validator = (IMdmValidator?)serviceProvider.GetService(validatorType);
+    return OneOf&#x3C;IActionResult, IMdmValidator?>.FromT1(validator);
+}
+</code></pre>
+<p>The magic happens when we use the <code>serviceProvider</code> (which is simply injected into the controller class with <code>MdmController(IServiceProvider serviceProvider)</code>) to get the service that matches <code>validatorType</code>.</p>
+<p>In <code>Startup.cs</code>, this is how the validators are registered:</p>
+<pre><code>var validatorTypes = Assembly.GetExecutingAssembly().GetTypes()
+    .Where(t => typeof(IMdmValidator).IsAssignableFrom(t) &#x26;&#x26; t is { IsGenericType: false, IsInterface: false })
+    .ToList();
+foreach (var type in validatorTypes)
+{
+    var reifiedGenericValidator = type.GetInterfaces().Single(t => t.IsDerivedFromRawGeneric(typeof(IGenericValidator&#x3C;>)));
+    services.AddScoped(reifiedGenericValidator, type);
+}
+</code></pre>
+<p>In <code>Startup.cs</code>, the generic repository is registered like this: <code>services.AddScoped(typeof(IGenericRepository&#x3C;>), typeof(GenericRepository&#x3C;>));</code>. And then, last but not least, <code>GetRepository()</code> gets an instance of the generic repository where <code>T</code> is of type <code>matchingEntityType</code>:</p>
+<pre><code>private OneOf&#x3C;IActionResult, IMdmRepository> GetRepository(Type matchingEntityType)
+{
+    var repositoryType = typeof(IGenericRepository&#x3C;>).MakeGenericType(matchingEntityType);
+    var repository = (IMdmRepository?)serviceProvider.GetService(repositoryType);
+    if (repository is null)
+    {
+        return BadRequest($'unable to create repository for entity type');
+    }
+    return OneOf&#x3C;IActionResult, IMdmRepository>.FromT1(repository);
+}
+</code></pre>
+<p>With that repository instance, the POST method runs <code>Create()</code>. The other endpoints are implemented very similarly, just use different methods from the repository. Ta-da! A fully-generic controller and repository!</p>
+<h5 id='the-workflow-to-add-a-model-to-this-api-is-super-simple'>The workflow to add a model to this API is super simple:</h5>
+<ul>
+<li>Create the model you want.</li>
+<li>Add the <code>DbSet&#x3C;></code> to the DbContext.</li>
+<li>Create a validator if you want one.</li>
+<li>Run <code>dotnet ef migrations add NameOfMigration</code>.</li>
+<li>And then run <code>dotnet ef database update</code>.</li>
+<li>Enjoy as all the CRUD operations just magically work!</li>
+</ul>
+<h5 id='resources'>resources</h5>
+<ul>
+<li>how to create an AWS RDS Microsoft SQL Server DB and connect it to an EF Core project:
+<ul>
+	<li><a href='https://youtu.be/U8VdDtSWRPc' target="_blank">https://youtu.be/U8VdDtSWRPc</a></li>
+	<li><a href='https://youtu.be/gmsrU63XAhg' target="_blank">https://youtu.be/gmsrU63XAhg</a></li>
+</ul>
+</li>
+<li>generic repository basics: <a href='https://codingblast.com/entity-framework-core-generic-repository/'>https://codingblast.com/entity-framework-core-generic-repository/</a></li>
+</ul>
