@@ -10,8 +10,7 @@ export default new Vuex.Store({
                 id: "20",
                 title: "a basic Entity Framework Core API... except everything's generic",
                 publishDate: "12/07/2024",
-                previewText: "testing, testing...",
-                text: "",
+                previewText: "<p>So off I went to attempt to create the perfect generic EF Core API... But it's not about the destination. It's really about the metaprogramming patterns you learn along the way.</p><p>.....</p>",
                 tags: []
             },
             {
