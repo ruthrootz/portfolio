@@ -7,11 +7,18 @@ export default new Vuex.Store({
     state: {
         articles: [
             {
+                id: "21",
+                title: "wrapping my head around server-side vs. client-side",
+                publishDate: "01/31/2025",
+                previewText: "<p>what does the server do?</p><p>A server is (usually) a long-running process that sits on a machine somewhere and listens for incoming requests.</p><p>.....</p>",
+                tags: ["webdev", "Vue", "SSR"]
+            },
+            {
                 id: "20",
                 title: "a basic Entity Framework Core API... except everything's generic",
                 publishDate: "12/07/2024",
                 previewText: "<p>So off I went to attempt to create the perfect generic EF Core API... But it's not about the destination. It's really about the metaprogramming patterns you learn along the way.</p><p>.....</p>",
-                tags: []
+                tags: ["C#", ".NET"]
             },
             {
                 id: "19",
