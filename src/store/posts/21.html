@@ -1,0 +1,42 @@
+<h3 id="what-does-the-server-do">what does the server do?</h3>
+<p>A server is (usually) a long-running process that sits on a machine somewhere and listens for incoming requests. Most web servers today listen for HTTP requests and respond with HTTP responses. HTTP stands for "Hypertext Transfer Protocol". HTML is the hypertext that's most commonly used on the web. So, as hinted by the name, HTTP is generally used for transferring HTML from web servers to web clients. (Or at least it was. More on that later.)</p>
+<h3 id="what-does-the-client-do">what does the client do?</h3>
+<p>Web clients (usually web browsers) make requests to web servers and then display the responses. The responses are HTML pages along with optional CSS and JS files. At the end of the day, browsers can only understand those three types of files, along with some image and audio/video formats (and WebAssembly, but that's a topic for another post).</p>
+<h3 id="what-do-js-web-frameworks-do">what do JS web frameworks do?</h3>
+<p>Modern JS frameworks attempt to make it easy to add lots of complex functionality and reactivity to websites. Popular frameworks like React, Vue and Svelte allow the developer to create complex applications within a single HTML page. These are known as Single-Page Applications (SPAs) or Client-Side Rendered sites (CSRs). The page will load one time, and then when navigation or events happen, the view within the browser is updated via JS—without any additional network calls going out to fetch new HTML.</p>
+<p>Web frameworks and the tools surrounding them (like npm, Webpack, Vite, etc.) allow the developer to write their website (these days usually in TypeScript), bring in various libraries, etc., and once everything is compiled and bundled, the server will serve the plain HTML/CSS/JS that the browser can work with. Every website needs a server of some sort, even if the server does nothing except send over a bundled Vue app—which the browser then takes and renders and updates without any further help from the server.</p>
+<p>For example, a Vue app can be written in TypeScript, then bundled into HTML, CSS and JS files with the <code>vue-cli-service build</code> command. This puts production-ready files into the <code>dist/</code> folder. Deploying a Vue app means taking those bundled files and putting them in a server that will serve the correct root HTML file and any other static assets it needs to load the site. My personal website is written in Vue, and when you visit the home page, you get back this HTML document:</p>
+<pre><code class="language-html">&#x3C;!DOCTYPE html>
+&#x3C;html lang="en">
+    &#x3C;head>
+        &#x3C;meta charset="utf-8">
+        &#x3C;meta http-equiv="X-UA-Compatible" content="IE=edge">
+        &#x3C;meta name="viewport" content="width=device-width,initial-scale=1">
+        &#x3C;link rel="icon" href="&#x3C;%= BASE_URL %>favicon.ico">
+        &#x3C;title>Ruth Oldja&#x3C;/title>
+        &#x3C;link href="/css/app.085daf9a.css" rel="preload" as="style">
+        &#x3C;link href="/css/chunk-vendors.c5cde566.css" rel="preload" as="style">
+        &#x3C;link href="/js/app.30357e9e.js" rel="preload" as="script">
+        &#x3C;link href="/js/chunk-vendors.323ad67f.js" rel="preload" as="script">
+        &#x3C;link href="/css/chunk-vendors.c5cde566.css" rel="stylesheet">
+        &#x3C;link href="/css/app.085daf9a.css" rel="stylesheet">
+    &#x3C;/head>
+    &#x3C;body>
+        &#x3C;noscript>
+            &#x3C;strong>
+                We're sorry but &#x3C;%= htmlWebpackPlugin.options.title %>doesn't work properly without JavaScript enabled. Please enable it to continue.
+            &#x3C;/strong>
+        &#x3C;/noscript>
+        &#x3C;div id="app">&#x3C;/div>
+        &#x3C;script src="/js/chunk-vendors.323ad67f.js">&#x3C;/script>
+        &#x3C;script src="/js/app.30357e9e.js">&#x3C;/script>
+    &#x3C;/body>
+&#x3C;/html>
+</code></pre>
+<p>This is called the "shell". All those linked JS files hold the data for the rest of the website, including how to handle "navigation" and all the data for loading blog posts. One request to the server gets back everything the site needs!</p>
+<p>For more detail on the CSP model vs the SSR (Server-Side Rendering) model, see this great article from the <em>Hands on React</em> course: <a href="https://handsonreact.com/docs/architecture">Architecture</a></p>
+<h3 id="why-did-i-write-this">why did I write this?</h3>
+<p>This is pretty basic stuff for probably a majority of web devs. So why did I write this?</p>
+<p>Because I've been a full stack web dev for about six years, and six years probably seems like a long enough time that I would feel confident in my knowledge of web technologies... but I don't. I've worked with a bunch of different languages, frameworks, design patterns, etc. But it's one thing to be able to complete tickets at work, and it's quite another to feel like you understand the way the code you're writing works under the hood or to be able to design things from scratch. How does one go from junior dev to senior dev? What happens in that "mid-level" level that makes a dev seem to intuitively understand how everything works?</p>
+<p>I'm not sure. But for me, researching and writing this blog post has been step one.</p>
+<p>I've also started reading <a href="https://hypermedia.systems/">Hypermedia Systems by Carson Gross</a>, the creator of HTMX. And I've been messing around building HTMX + Go projects for fun. Just doing those two things has helped me learn so much about the web and how it works—way more than I've been learning at work. <strong>It's not about the specific book or side project, it's that going back to the fundamentals helps boost confidence and gives me a more intuitive understanding of web dev as a whole.</strong> I also try to watch the Syntax podcast regularly and peek in on Primeagen streams every now and then. Theo T3 on YouTube is also great. I don't always understand everything they talk about, but over time I've started to understand more and more, and that's a great feeling!</p>
