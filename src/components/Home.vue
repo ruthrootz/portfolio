@@ -185,7 +185,7 @@
                         <div>[Python, Kaggle, Jupyter notebook]</div>
                     </li>
                 </ul>
-                <!-- <ul>
+                <ul>
                     <li class="demo">
                         <a
                             id="mojo"
@@ -201,11 +201,11 @@
                             </div>
                         </a>
                         <div>
-                            book review podcast I make with my friend
+                            book review podcast I made with my friend
                         </div>
                         <div>[Anchor, GarageBand, Blue Yeti mic]</div>
                     </li>
-                </ul> -->
+                </ul>
             </div>
         </div>
     </div>
