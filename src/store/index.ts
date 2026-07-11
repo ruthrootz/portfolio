@@ -7,6 +7,13 @@ export default new Vuex.Store({
     state: {
         articles: [
             {
+                id: "22",
+                title: "technology is ruining my life",
+                publishDate: "2026-07-11",
+                tags: ["webdev", "career", "AI", "Claude", "technology", "lifestyle"],
+                previewText: "<p>I barely recognize myself. I write way more code, I'm better at editing sheet music, I've made my app ideas come to life, I got promoted to senior software engineer and am in training to be a staff engineer...</p><p>.....</p>"
+            },
+            {
                 id: "21",
                 title: "wrapping my head around server-side vs. client-side",
                 publishDate: "01/31/2025",
