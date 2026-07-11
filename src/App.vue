@@ -120,6 +120,7 @@ p {
 
 #nav a {
     font-weight: bold;
+    margin: 0 12px;
 }
 
 #nav a.router-link-exact-active {
