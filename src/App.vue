@@ -220,7 +220,7 @@ li > .nav-link {
     flex-basis: 0;
     flex-grow: 999;
     font-size: 1.5rem;
-    width: 50%;
+    width: 75%;
     margin: 0px auto;
 }
 
@@ -259,7 +259,7 @@ li > .nav-link {
 }
 
 .blog {
-    width: 60%;
+    width: 100%;
     margin: 0px auto;
 }
 
